@@ -28,7 +28,7 @@
 		M.adjustOxyLoss(-1.25, 0)
 		M.adjustOrganLoss(ORGAN_SLOT_BRAIN, -5*REM)
 		M.adjustCloneLoss(-1.75*REM, 0)
-		M.adjust_nutrition(-2.5*REM)
+		M.adjust_nutrition(-1.5*REM)
 	..()
 
 /datum/reagent/medicine/stronghealth
@@ -56,7 +56,8 @@
 		M.adjustOxyLoss(-5, 0)
 		M.adjustOrganLoss(ORGAN_SLOT_BRAIN, -5*REM)
 		M.adjustCloneLoss(-7*REM, 0)
-		M.adjust_nutrition(-5*REM)
+		M.adjust_nutrition(-2.5*REM)
+		M.adjust_hydration(-1*REM)
 	..()
 	. = 1
 
@@ -74,6 +75,20 @@
 	M.playsound_local(M, 'sound/misc/heroin_rush.ogg', 100, FALSE)
 	M.visible_message(span_warning("A gush of blood runs from [M]'s nose and eyes!"))
 	. = 1
+
+/datum/reagent/medicine/stronghealth/overdose_start(mob/living/M)
+	M.playsound_local(M, 'sound/misc/heroin_rush.ogg', 100, FALSE)
+	M.visible_message(span_warning("Blood runs from [M]'s nose."))
+	. = 1
+
+/datum/reagent/medicine/stronghealth/overdose_process(mob/living/M)
+	M.adjustToxLoss(4, 0)
+	..()
+	. = 1
+
+/datum/reagent/medicine/stronghealth/overdose_start(mob/living/M)
+	M.playsound_local(M, 'sound/misc/heroin_rush.ogg', 100, FALSE)
+	M.visible_message(span_warning("A gush of blood runs from [M]'s nose and eyes!"))
 
 /datum/reagent/medicine/stronghealth/overdose_process(mob/living/M)
 	M.adjustToxLoss(4, 0)
