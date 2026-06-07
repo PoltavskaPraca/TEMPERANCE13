@@ -61,6 +61,10 @@
 	if(!user?.client?.prefs.sexable)
 		to_chat(user, "<span class='warning'>I don't want to touch [target]. (Your ERP preference, in the options)</span>")
 		return
+	if(!user.check_agevet())
+		to_chat(user, "<span class='warning'>You're not age verified.</span>")
+		log_combat(user, target, "tried ERP while non verified")
+		return
 	if(!target.check_agevet())
 		to_chat(user, "<span class='warning'>[target] is not age verified.</span>")
 		log_combat(user, target, "tried ERP against non verified")
