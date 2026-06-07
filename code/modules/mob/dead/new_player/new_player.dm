@@ -329,6 +329,8 @@ GLOBAL_LIST_INIT(roleplay_readme, world.file2list("strings/rt/rp_prompt.txt"))
 	switch(retval)
 		if(JOB_AVAILABLE)
 			return "[jobtitle] is available."
+		if(JOB_UNAVAILABLE_AGEVET)
+			return "[jobtitle] is restricted to agevetted players."
 		if(JOB_UNAVAILABLE_GENERIC)
 			return "[jobtitle] is unavailable."
 		if(JOB_UNAVAILABLE_BANNED)
@@ -394,6 +396,8 @@ GLOBAL_LIST_INIT(roleplay_readme, world.file2list("strings/rt/rp_prompt.txt"))
 	if(CONFIG_GET(flag/usewhitelist))
 		if(job.whitelist_req && !client.whitelisted())
 			return JOB_UNAVAILABLE_GENERIC
+	if(job.agevet_req && !(ckey in GLOB.agevetted_list))
+		return JOB_UNAVAILABLE_AGEVET
 	if(!job.bypass_jobban)
 		if(is_banned_from(ckey, rank))
 			return JOB_UNAVAILABLE_BANNED

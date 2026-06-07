@@ -56,6 +56,7 @@
 #define JOB_UNAVAILABLE_JOB_COOLDOWN 11
 #define JOB_UNAVAILABLE_SLOTFULL 12
 #define JOB_UNAVAILABLE_VIRTUESVICE 13
+#define JOB_UNAVAILABLE_AGEVET 14
 
 #define DEFAULT_RELIGION "Christianity"
 #define DEFAULT_DEITY "Space Jesus"
@@ -235,7 +236,7 @@
 #define TUORO (1<<5)
 #define PAFANTO (1<<6) //heavy weapon technician - melee weapon and machine gun
 #define MULO (1<<7) // heavy weapon ammo bearer - stripped down soldato gear and ammo storage
-#define SERVISTO (1<<8) //support role - can probably shit meds out the wazoo 
+#define SERVISTO (1<<8) //support role - can probably shit meds out the wazoo
 #define CURACISTO (1<<9)
 #define CAMPFOLLOWER (1<<10)
 #define CONSULO (1<<11)
