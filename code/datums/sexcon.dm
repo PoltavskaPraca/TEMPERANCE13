@@ -79,6 +79,8 @@
 		return FALSE
 	if(get_playerquality(client.ckey) <= -10)
 		return FALSE
+	if(!user.check_agevet())
+		return FALSE
 //	if(!client.whitelisted())
 //		if(!client.patreonlevel())
 //			can_do_sex = 0
