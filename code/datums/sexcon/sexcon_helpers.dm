@@ -70,6 +70,9 @@
 		to_chat(target, "<span class='warning'>[user] failed to touch you. (Your ERP preference, in the options)</span>")
 		log_combat(user, target, "tried unwanted ERP menu against")
 		return
+	if(!target.check_agevet())
+		to_chat(user, "<span class='warning'>[target] is not age verified.</span>")
+		return FALSE
 	user.sexcon.start(target)
 
 /mob/living/proc/can_do_sex()
@@ -180,7 +183,7 @@
 	if(my_demihuman || their_demihuman)
 		return (my_demihuman && their_demihuman)
 	return TRUE
-	
+
 /mob/living/carbon/human/proc/try_impregnate(mob/living/carbon/human/wife)
 	var/obj/item/organ/testicles/testes = getorganslot(ORGAN_SLOT_TESTICLES)
 	if(!testes)
