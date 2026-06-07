@@ -36,9 +36,9 @@ GLOBAL_VAR_INIT(year_integer, text2num(year)) // = 2013???
 		if(valid_headshot_link(null, headshot_link, TRUE))
 			dat += ("<div align='center'><img src='[headshot_link]' width='325px' height='325px'></div>")
 		if(LAZYACCESS(GLOB.agevetted_list, ckey) || holder)
-			dat += ("<span class='good'>AGE VERIFIED</span>")
+			dat += ("<center><span class='good'>AGE VERIFIED</span></center>")
 		else
-			dat += ("<span class='bad'>NON VERIFIED</span>")
+			dat += ("<center><span class='bad'>NON VERIFIED</span></center>")
 		if(flavortext)
 			dat += "<div align='left'>[flavortext_display]</div>"
 		if(ooc_notes)
