@@ -65,7 +65,7 @@
 		to_chat(user, "<span class='warning'>You're not age verified.</span>")
 		log_combat(user, target, "tried ERP while non verified")
 		message_admins("[ADMIN_LOOKUPFLW(user)] has tried to use the ERP panel despite not being vetted.")
-		log_admin("[user.real_name]([key_name(user)]) has tried to use the ERP panel despite not being vetted.")
+		log_admin("[key_name(user)] has tried to use the ERP panel despite not being vetted.")
 		return
 	if(!target.check_agevet())
 		to_chat(user, "<span class='warning'>[target] is not age verified.</span>")
