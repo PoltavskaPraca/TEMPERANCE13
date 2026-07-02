@@ -983,17 +983,6 @@
 /obj/machinery/light/rogue/torchholder/r,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
-"dZ" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-e"
-	},
-/obj/effect/decal/edge{
-	color = "#3f3f3f";
-	dir = 8
-	},
-/turf/open/floor/rogue/dirt/road,
-/area/rogue)
 "ea" = (
 /obj/structure/flora/roguegrass,
 /obj/structure/flora/roguegrass/herb/random,
@@ -1662,10 +1651,6 @@
 /obj/effect/decal/cobbleedge{
 	dir = 9
 	},
-/obj/effect/decal/edge{
-	color = "#3f3f3f";
-	dir = 8
-	},
 /turf/open/floor/rogue/cobblerock,
 /area/rogue)
 "gJ" = (
@@ -1695,9 +1680,6 @@
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-e"
-	},
-/obj/effect/decal/edge_corner{
-	color = "#3f3f3f"
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
@@ -3604,14 +3586,6 @@
 /obj/structure/table/wood/large_table/north_east,
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
-"oR" = (
-/obj/structure/flora/roguegrass,
-/obj/effect/decal/edge{
-	color = "#3f3f3f";
-	dir = 4
-	},
-/turf/open/floor/rogue/grassyel,
-/area/rogue)
 "oS" = (
 /obj/structure/flora/roguegrass/herb/rosa,
 /obj/effect/decal/cobbleedge{
@@ -3703,16 +3677,6 @@
 	dir = 1
 	},
 /turf/open/floor/rogue/cobble,
-/area/rogue)
-"pj" = (
-/obj/effect/decal/cobbleedge{
-	pixel_y = 7;
-	dir = 6
-	},
-/obj/effect/decal/edge{
-	color = "#3f3f3f"
-	},
-/turf/open/floor/rogue/cobble/mossy,
 /area/rogue)
 "pk" = (
 /obj/effect/decal/cobbleedge{
@@ -5375,21 +5339,6 @@
 /obj/structure/fluff/railing/border/north,
 /turf/open/floor/rogue/ruinedwood/herringbone,
 /area/rogue)
-"vN" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/obj/effect/decal/cobbleedge{
-	pixel_y = -25;
-	dir = 9;
-	layer = 2.9
-	},
-/obj/effect/decal/edge{
-	color = "#3f3f3f"
-	},
-/turf/open/floor/rogue/cobblerock,
-/area/rogue)
 "vO" = (
 /obj/effect/decal/edge{
 	color = "#3f3f3f"
@@ -5422,12 +5371,6 @@
 	},
 /obj/structure/closet/dirthole/grave,
 /turf/open/floor/rogue/dirt,
-/area/rogue)
-"vV" = (
-/obj/effect/decal/edge{
-	color = "#3f3f3f"
-	},
-/turf/open/floor/rogue/dirt/road,
 /area/rogue)
 "vW" = (
 /obj/effect/decal/mossy,
@@ -5728,21 +5671,6 @@
 	max_integrity = 70
 	},
 /turf/open/floor/rogue/cobblerock,
-/area/rogue)
-"xl" = (
-/obj/effect/decal/cobbleedge{
-	dir = 8;
-	pixel_x = 17
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	layer = 2.9;
-	pixel_x = -7
-	},
-/obj/effect/decal/edge{
-	color = "#3f3f3f"
-	},
-/turf/open/floor/rogue/dirt,
 /area/rogue)
 "xm" = (
 /obj/effect/decal/cobbleedge{
@@ -6368,15 +6296,6 @@
 "zt" = (
 /turf/open/transparent/openspace/airless,
 /area/rogue)
-"zv" = (
-/obj/structure/flora/roguegrass,
-/obj/effect/decal/edge{
-	color = "#3f3f3f";
-	dir = 5;
-	layer = 3.1
-	},
-/turf/open/floor/rogue/grass,
-/area/rogue)
 "zw" = (
 /obj/effect/decal/cobbleedge{
 	dir = 5
@@ -6685,15 +6604,6 @@
 /area/rogue)
 "AJ" = (
 /turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue)
-"AK" = (
-/obj/structure/fluff/railing/border/north,
-/obj/effect/decal/cobble/mossy,
-/obj/effect/decal/edge{
-	color = "#3f3f3f";
-	dir = 4
-	},
-/turf/open/floor/rogue/grass,
 /area/rogue)
 "AL" = (
 /obj/effect/decal/cobble/mossy{
@@ -8162,15 +8072,6 @@
 /obj/machinery/tanningrack,
 /turf/open/floor/rogue/cobble,
 /area/rogue)
-"GO" = (
-/obj/effect/decal/cobbleedge{
-	dir = 5
-	},
-/obj/effect/decal/edge{
-	color = "#3f3f3f"
-	},
-/turf/open/floor/rogue/cobble/mossy,
-/area/rogue)
 "GP" = (
 /obj/structure/flora/roguegrass,
 /obj/effect/decal/cobbleedge{
@@ -8900,9 +8801,9 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue)
 "JE" = (
-/obj/effect/decal/edge_corner{
-	color = "#3f3f3f";
-	dir = 1
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-n"
 	},
 /turf/open/floor/rogue/dirt,
 /area/rogue)
@@ -9481,16 +9382,6 @@
 /obj/structure/flora/roguegrass,
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/rogue/grassred,
-/area/rogue)
-"LK" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-n"
-	},
-/obj/effect/decal/edge{
-	color = "#3f3f3f"
-	},
-/turf/open/floor/rogue/cobble/mossy,
 /area/rogue)
 "LN" = (
 /obj/structure/chair/bench/church/smallbench,
@@ -11778,14 +11669,6 @@
 	dir = 4
 	},
 /turf/open/floor/rogue/ruinedwood/herringbone,
-/area/rogue)
-"VE" = (
-/obj/effect/decal/edge{
-	color = "#3f3f3f";
-	dir = 1;
-	layer = 3.1
-	},
-/turf/open/floor/rogue/dirt/road,
 /area/rogue)
 "VF" = (
 /obj/structure/fluff/railing/border/north,
@@ -80622,13 +80505,13 @@ AW
 AW
 SH
 zm
-AK
-tf
-oR
-tf
-tf
-Pi
-zv
+zX
+Bz
+TV
+Bz
+Bz
+eX
+eX
 Hx
 AJ
 AJ
@@ -80855,7 +80738,7 @@ OG
 OG
 OG
 OG
-VE
+Hw
 Hx
 YA
 ga
@@ -81082,7 +80965,7 @@ OG
 OG
 OG
 kn
-JE
+tb
 kE
 kE
 kE
@@ -81531,7 +81414,7 @@ uj
 Rh
 eO
 gI
-dZ
+gP
 gP
 yK
 kn
@@ -81759,7 +81642,7 @@ eO
 JH
 gy
 kn
-ln
+kn
 kn
 kn
 kn
@@ -81986,7 +81869,7 @@ Ur
 mQ
 ts
 CJ
-ln
+kn
 kn
 kn
 kn
@@ -82213,7 +82096,7 @@ ss
 gY
 aH
 UK
-GO
+nU
 Og
 pv
 kn
@@ -82440,7 +82323,7 @@ um
 kn
 Kc
 kn
-ln
+kn
 kn
 kn
 OG
@@ -82667,7 +82550,7 @@ kn
 kn
 Kc
 kn
-pj
+Fg
 Wn
 kn
 OG
@@ -82894,7 +82777,7 @@ hW
 kn
 kn
 kn
-LK
+av
 fN
 aq
 OG
@@ -83118,10 +83001,10 @@ FT
 xI
 En
 En
-vV
+Hw
 Ci
 kn
-xl
+gB
 vs
 kn
 OG
@@ -83345,10 +83228,10 @@ KS
 og
 JN
 oj
-Cb
+OG
 kO
 kn
-ln
+kn
 kn
 kn
 tb
@@ -83572,7 +83455,7 @@ AW
 RM
 BQ
 oj
-Cb
+OG
 kn
 kn
 iO
@@ -84752,7 +84635,7 @@ dM
 dM
 dM
 NV
-vV
+Hw
 kn
 PA
 kn
@@ -84979,7 +84862,7 @@ Pc
 Or
 nM
 XL
-Cb
+OG
 kn
 kn
 kn
@@ -85206,7 +85089,7 @@ Yc
 Ll
 Yc
 kn
-Cb
+OG
 kn
 kn
 iO
@@ -85433,7 +85316,7 @@ Yd
 cC
 ee
 JH
-Cb
+OG
 kn
 kn
 kn
@@ -85660,7 +85543,7 @@ tb
 Hw
 VP
 ee
-vN
+lv
 JS
 kn
 kn
@@ -86585,7 +86468,7 @@ ec
 ec
 sx
 ec
-HU
+rI
 ec
 ec
 ec
@@ -86810,11 +86693,11 @@ ec
 ec
 ec
 ec
-HU
-HU
-HU
-HU
-HU
+rI
+rI
+rI
+rI
+Or
 ec
 ks
 qe
@@ -87036,13 +86919,13 @@ kn
 ec
 ec
 ec
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+fC
+jN
+cg
+BS
+vw
+sJ
+sJ
 ks
 DV
 ks
@@ -87255,21 +87138,21 @@ kn
 ZO
 PA
 fm
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+jN
+sJ
+OG
+Kc
+PA
+Jx
+Hw
 ec
 Rv
 ec
@@ -87482,21 +87365,21 @@ NV
 Hw
 CJ
 SE
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+Hw
+sJ
+tb
+tb
+PA
+Jx
+Hw
 ks
 qe
 ks
@@ -87709,21 +87592,21 @@ XL
 Hw
 vw
 Lm
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+sJ
+sJ
+cu
+tb
+Ag
+zd
+Hw
 ks
 DV
 ks
@@ -87936,21 +87819,21 @@ By
 fm
 PA
 kn
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+kn
+kn
+kn
+kn
+rI
+OG
+OG
+OG
+Jx
+Hw
+OG
+Hw
+cz
+fC
+OG
 JH
 Rv
 JH
@@ -88163,21 +88046,21 @@ kn
 kn
 kn
 PA
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
-CT
-HU
-HU
-HU
-HU
-HU
-HU
+kn
+kn
+kn
+kn
+fC
+OG
+OG
+OG
+OG
+zd
+Hw
+ex
+rI
+rI
+OG
 ks
 qe
 ks
@@ -88390,21 +88273,21 @@ kn
 kn
 Fb
 Kq
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
-CT
-HU
-HU
-HU
-HU
-HU
-HU
+Fg
+Wn
+kn
+SE
+jN
+OG
+OG
+OG
+OG
+fC
+OG
+jN
+rI
+jN
+OG
 ks
 DV
 ks
@@ -88617,21 +88500,21 @@ kn
 kn
 kn
 yK
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
-CT
-HU
-HU
-HU
-HU
-HU
-HU
+av
+fN
+aq
+Kq
+Hw
+OG
+OG
+OG
+OG
+jN
+sJ
+Hw
+rI
+dX
+OG
 JH
 Rv
 JH
@@ -88844,21 +88727,21 @@ OP
 Si
 kn
 WN
-HU
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
+gB
+vs
+kn
+JE
+sJ
+sJ
+OG
+OG
+OG
 kE
 Rv
 Rv
 Rv
 kE
-HU
+ex
 ks
 qe
 ks
@@ -89071,21 +88954,21 @@ Yx
 ID
 kn
 vw
-HU
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
+kn
+kn
+kn
+Gc
+Hw
+AO
+OG
+OG
+OG
 ks
 wl
 Nz
 Wi
 ks
-HU
+rI
 ks
 DV
 ks
@@ -89298,21 +89181,21 @@ kn
 ID
 kn
 OG
-HU
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
+kn
+kn
+kn
+Px
+zd
+Bz
+OG
+OG
+OG
 qe
 uj
 uj
 uj
 zm
-HU
+rI
 JH
 Rv
 JH
@@ -89525,21 +89408,21 @@ kn
 kn
 vj
 kn
-HU
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
+dX
+ec
+ec
+sx
+fC
+eX
+OG
+OG
+OG
 Vy
 uj
 uj
 VC
 ks
-HU
+rI
 ks
 qe
 ks
@@ -89752,21 +89635,21 @@ kn
 kn
 kn
 nU
-HU
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
+sx
+ec
+ec
+ec
+ec
+aW
+OG
+OG
+OG
 BB
 uj
 ul
 En
 sx
-HU
+rI
 ks
 DV
 ks
@@ -89942,30 +89825,30 @@ ec
 ec
 ec
 Bz
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+sJ
+sJ
+sJ
+sJ
+Hw
+Hw
+Hw
+tb
+sJ
+DC
+GC
+Bz
+sJ
+tb
+DC
+sJ
+Bz
+Bz
+Bz
+Bz
+Bz
+Bz
+Bz
+TV
 Bz
 ec
 ec
@@ -89973,27 +89856,27 @@ ec
 ec
 ec
 Bz
-XV
-XV
-XV
-XV
-XV
-XV
-HU
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
+hY
+hY
+hY
+hY
+hY
+hY
+ec
+ec
+JH
+ec
+ec
+rI
+OG
+OG
+OG
 ks
 QM
 vJ
 Rf
 MU
-HU
+rI
 JH
 Rv
 JH
@@ -90206,21 +90089,21 @@ CT
 CT
 CT
 CT
+ec
+ec
+ec
+ec
+ec
 HU
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
+OG
+OG
+OG
 kE
 Rv
 Rv
 sx
 En
-HU
+rI
 ks
 qe
 ks
@@ -90434,20 +90317,20 @@ CT
 CT
 CT
 HU
+ec
+ec
+ec
+HU
+hY
+hY
+hY
+hY
+hY
 HU
 HU
 HU
 HU
-HU
-CT
-CT
-CT
-HU
-HU
-HU
-HU
-HU
-HU
+jN
 ks
 DV
 ks
@@ -90666,9 +90549,9 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
+OG
+OG
+OG
 HU
 HU
 HU
@@ -90893,9 +90776,9 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
+OG
+OG
+OG
 HU
 HU
 HU
@@ -91120,9 +91003,9 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
+OG
+OG
+OG
 HU
 HU
 HU
@@ -91347,9 +91230,9 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
+OG
+OG
+OG
 HU
 HU
 HU
@@ -91568,15 +91451,15 @@ HU
 HU
 HU
 DC
-kE
-eO
-eO
-eO
-kE
+En
+ec
+ec
+ec
+En
 HU
-CT
-CT
-CT
+OG
+OG
+OG
 HU
 HU
 HU
@@ -91799,7 +91682,7 @@ En
 kz
 AJ
 kl
-eO
+ec
 HU
 CT
 CT
@@ -92026,7 +91909,7 @@ JK
 vy
 AJ
 kw
-eO
+ec
 HU
 CT
 CT
@@ -92253,7 +92136,7 @@ En
 hL
 xX
 VM
-eO
+ec
 HU
 CT
 CT
@@ -92476,11 +92359,11 @@ HU
 HU
 HU
 sJ
-eO
+ec
 nO
 AJ
-kE
-kE
+En
+En
 HU
 CT
 CT
@@ -92703,10 +92586,10 @@ HU
 HU
 HU
 sJ
-kE
+En
 yG
 jJ
-kE
+En
 Hw
 HU
 CT
