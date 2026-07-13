@@ -149,6 +149,17 @@
 	},
 /turf/open/floor/rogue/ruinedwood/herringbone,
 /area/rogue)
+"ay" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-w"
+	},
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 10
+	},
+/turf/open/floor/rogue/blocks/stonered,
+/area/rogue)
 "az" = (
 /obj/structure/fluff/railing/border,
 /turf/open/floor/rogue/cobble/mossy,
@@ -970,6 +981,19 @@
 /obj/effect/decal/remains/corpse/body/body2,
 /turf/open/floor/rogue/dirt,
 /area/rogue)
+"dk" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-e"
+	},
+/obj/structure/fluff/walldeco/serpflag{
+	pixel_x = 32
+	},
+/obj/effect/decal/cobbleedge{
+	icon_state = "cobbleedge-n"
+	},
+/turf/open/floor/rogue/dirt,
+/area/rogue)
 "dl" = (
 /obj/effect/decal/cobbleedge{
 	dir = 6
@@ -1046,6 +1070,17 @@
 	},
 /obj/structure/fluff/walldeco/church/line,
 /turf/open/floor/rogue/church,
+/area/rogue)
+"dz" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-e"
+	},
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 2
+	},
+/turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "dB" = (
 /obj/structure/table/wood/large_table/middle_west,
@@ -1578,6 +1613,17 @@
 	},
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue)
+"fq" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 2
+	},
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 2
+	},
+/turf/open/floor/rogue/cobble,
+/area/rogue)
 "fr" = (
 /obj/structure/fluff/statue/psybloody{
 	name = "Sir Orlando of Vos Arderla";
@@ -1894,6 +1940,17 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
+"gz" = (
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 8
+	},
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/turf/open/floor/rogue/blocks/stonered,
+/area/rogue)
 "gA" = (
 /obj/structure/fluff/railing/corner,
 /turf/open/floor/rogue/ruinedwood/herringbone,
@@ -2066,6 +2123,13 @@
 	},
 /turf/open/floor/rogue/churchrough,
 /area/rogue)
+"gX" = (
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/turf/open/floor/rogue/grassyel,
+/area/rogue)
 "gY" = (
 /obj/effect/decal/cobble/mossy{
 	dir = 1
@@ -2085,6 +2149,10 @@
 /obj/structure/rack/rogue,
 /obj/item/natural/bundle/stick,
 /turf/open/floor/rogue/ruinedwood/herringbone,
+/area/rogue)
+"hc" = (
+/obj/machinery/light/rogue/wallfire/candle/weak/l,
+/turf/open/floor/rogue/blocks/stonered/tiny,
 /area/rogue)
 "hd" = (
 /obj/effect/decal/wood/herringbone2{
@@ -2947,6 +3015,14 @@
 	},
 /turf/open/floor/rogue/wood,
 /area/rogue)
+"jS" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 4
+	},
+/obj/machinery/light/rogue/wallfire/candle/weak/l,
+/turf/open/floor/rogue/blocks/stonered,
+/area/rogue)
 "jT" = (
 /obj/effect/decal/cobble/mossy{
 	dir = 1
@@ -3227,6 +3303,17 @@
 	dir = 2
 	},
 /turf/open/floor/rogue/hexstone,
+/area/rogue)
+"lb" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 2
+	},
+/obj/machinery/light/rogue/wallfire/candle/weak,
+/obj/structure/fluff/statue/small{
+	pixel_y = 5
+	},
+/turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "lc" = (
 /obj/structure/fluff/railing/border,
@@ -3516,6 +3603,17 @@
 	dir = 10
 	},
 /turf/open/floor/rogue/cobblerock,
+/area/rogue)
+"mf" = (
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 2
+	},
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 4
+	},
+/turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "mg" = (
 /obj/structure/fluff/railing/border/north,
@@ -4290,6 +4388,20 @@
 /obj/structure/table/wood/large_table/north_east,
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
+"oR" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/obj/structure/fluff/statue/knight/interior/r{
+	pixel_x = -4
+	},
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 4
+	},
+/turf/open/floor/rogue/blocks/stonered,
+/area/rogue)
 "oS" = (
 /obj/structure/flora/roguegrass/herb/rosa,
 /obj/effect/decal/cobbleedge{
@@ -4430,6 +4542,14 @@
 	pixel_y = -7
 	},
 /turf/open/floor/rogue/dirt,
+/area/rogue)
+"pn" = (
+/obj/effect/decal/cobbleedge{
+	pixel_y = 0;
+	dir = 9;
+	layer = 2.9
+	},
+/turf/open/floor/rogue/grass,
 /area/rogue)
 "po" = (
 /obj/structure/table/wood/long_table/mid/alt,
@@ -4723,6 +4843,17 @@
 	},
 /obj/effect/decal/remains/corpse/charred/charred6,
 /turf/open/floor/rogue/dirt,
+/area/rogue)
+"qj" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-w"
+	},
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "qk" = (
 /obj/structure/rack/rogue/shelf,
@@ -5025,6 +5156,17 @@
 /obj/machinery/light/rogue/wallfire/candle/blue,
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
+"re" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/turf/open/floor/rogue/cobble,
+/area/rogue)
 "rf" = (
 /obj/effect/decal/cobbleedge{
 	dir = 1
@@ -5120,6 +5262,17 @@
 	dir = 1
 	},
 /turf/open/floor/rogue/cobble,
+/area/rogue)
+"rw" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-e"
+	},
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "ry" = (
 /obj/effect/decal/cleanable/blood,
@@ -5881,6 +6034,7 @@
 	color = "#3f3f3f";
 	dir = 8
 	},
+/obj/machinery/light/rogue/wallfire/candle/weak/r,
 /turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "tP" = (
@@ -6016,6 +6170,17 @@
 "un" = (
 /obj/item/sandbag,
 /turf/open/floor/rogue/cobble,
+/area/rogue)
+"uo" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-w"
+	},
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 9
+	},
+/turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "up" = (
 /obj/structure/flora/roguegrass,
@@ -6329,6 +6494,17 @@
 "vn" = (
 /obj/structure/fluff/wallclock/l,
 /turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue)
+"vo" = (
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 4
+	},
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 2
+	},
+/turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "vp" = (
 /obj/structure/ladder,
@@ -6690,8 +6866,15 @@
 /turf/open/floor/rogue/grassred,
 /area/rogue)
 "wq" = (
-/obj/structure/fluff/railing/border/north,
-/turf/closed/wall/smooth,
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/obj/machinery/light/rogue/wallfire/candle/weak{
+	pixel_y = -32
+	},
+/obj/structure/fluff/statue/small,
+/turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "wr" = (
 /obj/structure/flora/roguegrass/bush/wall,
@@ -6832,6 +7015,17 @@
 /obj/structure/table/wood/poor,
 /obj/item/reagent_containers/glass/bucket/pot/stone,
 /turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue)
+"wO" = (
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 8
+	},
+/turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "wP" = (
 /obj/structure/roguewindow/openclose{
@@ -7381,6 +7575,13 @@
 /obj/item/grown/log/tree/stick,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
+"yC" = (
+/obj/effect/decal/cobbleedge{
+	dir = 8;
+	pixel_y = 17
+	},
+/turf/open/floor/rogue/cobblerock,
+/area/rogue)
 "yD" = (
 /obj/structure/fluff/railing/corner,
 /turf/open/transparent/openspace,
@@ -7406,6 +7607,12 @@
 	plane = -5
 	},
 /turf/open/floor/rogue/fmetal/southwest,
+/area/rogue)
+"yJ" = (
+/obj/effect/decal/cobbleedge{
+	dir = 2
+	},
+/turf/open/floor/rogue/hexstone,
 /area/rogue)
 "yK" = (
 /obj/effect/decal/cobbleedge{
@@ -8133,6 +8340,16 @@
 	},
 /turf/open/floor/rogue/dirt,
 /area/rogue)
+"Bm" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/obj/structure/fluff/walldeco/bigpainting/lake{
+	pixel_y = -32
+	},
+/turf/open/floor/rogue/blocks/stonered,
+/area/rogue)
 "Bp" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/structure/fluff/railing/fence{
@@ -8186,6 +8403,16 @@
 /area/rogue)
 "Bz" = (
 /turf/open/floor/rogue/grassyel,
+/area/rogue)
+"BA" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-e"
+	},
+/obj/effect/decal/cobbleedge{
+	icon_state = "cobbleedge-sread"
+	},
+/turf/open/floor/rogue/dirt,
 /area/rogue)
 "BB" = (
 /obj/structure/mineral_door/wood/towner/generic/two_keys,
@@ -8247,7 +8474,21 @@
 	dir = 5;
 	layer = 3.1
 	},
+/obj/structure/fluff/walldeco/rpainting{
+	pixel_y = 19;
+	pixel_x = -32
+	},
 /turf/open/floor/rogue/blocks/stonered,
+/area/rogue)
+"BJ" = (
+/obj/structure/flora/roguegrass{
+	pixel_x = -3
+	},
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 4
+	},
+/turf/open/floor/rogue/grass,
 /area/rogue)
 "BK" = (
 /obj/effect/decal/cobbleedge{
@@ -8354,6 +8595,10 @@
 	dir = 2
 	},
 /obj/structure/fluff/railing/corner/south_west,
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 4
+	},
 /turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "BX" = (
@@ -9772,6 +10017,14 @@
 /obj/machinery/light/rogue/wallfire/candle/floorcandle/alt,
 /turf/open/floor/rogue/grassyel,
 /area/rogue)
+"Gv" = (
+/obj/structure/stairs{
+	dir = 4
+	},
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border/north,
+/turf/open/floor/rogue/cobblerock,
+/area/rogue)
 "Gw" = (
 /obj/effect/decal/remains/corpse/charred/charred4,
 /turf/open/floor/rogue/wood,
@@ -10159,6 +10412,17 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue)
+"HP" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-e"
+	},
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 2
+	},
+/turf/open/floor/rogue/blocks/stonered,
+/area/rogue)
 "HQ" = (
 /obj/effect/decal/mossy,
 /obj/effect/decal/mossy{
@@ -10490,6 +10754,16 @@
 	pixel_x = -23
 	},
 /turf/open/floor/rogue/herringbone,
+/area/rogue)
+"IP" = (
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/obj/structure/fluff/statue/knight/interior/r{
+	pixel_x = -4
+	},
+/turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "IR" = (
 /obj/effect/decal/cobbleedge{
@@ -10855,6 +11129,17 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue)
+"JO" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 4
+	},
+/obj/structure/fluff/walldeco/rpainting/crown{
+	pixel_y = 18;
+	pixel_x = -32
+	},
+/turf/open/floor/rogue/blocks/stonered,
+/area/rogue)
 "JP" = (
 /obj/structure/flora/roguegrass,
 /obj/effect/decal/cobbleedge{
@@ -10915,6 +11200,17 @@
 	},
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue)
+"JZ" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 8
+	},
+/turf/open/floor/rogue/cobble,
+/area/rogue)
 "Ka" = (
 /obj/structure/table/wood/map/six,
 /turf/open/floor/rogue/herringbone,
@@ -10962,8 +11258,15 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue)
 "Kf" = (
-/obj/structure/fluff/railing/corner,
-/turf/closed/wall/smooth,
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 2
+	},
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 4
+	},
+/turf/open/floor/rogue/cobble,
 /area/rogue)
 "Ki" = (
 /obj/structure/bed/rogue/inn/double{
@@ -11532,8 +11835,15 @@
 /turf/open/floor/rogue/blocks/stonered/tiny,
 /area/rogue)
 "Me" = (
-/obj/structure/fluff/railing/corner/north_east,
-/turf/closed/wall/smooth,
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-w"
+	},
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 2
+	},
+/turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "Mf" = (
 /obj/effect/decal/cobbleedge{
@@ -11755,6 +12065,17 @@
 /obj/effect/decal/mossy,
 /turf/open/floor/rogue/cobble,
 /area/rogue)
+"MQ" = (
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 4
+	},
+/obj/structure/fluff/statue/knight/interior/r{
+	pixel_y = 6;
+	pixel_x = -5
+	},
+/turf/open/floor/rogue/blocks/stonered,
+/area/rogue)
 "MR" = (
 /obj/machinery/light/rogue/oven{
 	pixel_y = 33
@@ -11838,6 +12159,13 @@
 "Nj" = (
 /obj/structure/fluff/railing/corner,
 /turf/open/floor/rogue/cobblerock,
+/area/rogue)
+"Nk" = (
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 4
+	},
+/turf/open/floor/rogue/grassyel,
 /area/rogue)
 "Nn" = (
 /obj/structure/fluff/littlebanners/bluewhite{
@@ -12744,6 +13072,16 @@
 	icon_state = "weird1"
 	},
 /area/rogue)
+"Qd" = (
+/obj/structure/flora/roguegrass{
+	pixel_x = -6
+	},
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 4
+	},
+/turf/open/floor/rogue/grass,
+/area/rogue)
 "Qf" = (
 /obj/structure/vine{
 	icon_state = "bloodl2";
@@ -13124,6 +13462,16 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
+"RB" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/obj/structure/fluff/walldeco/statue/rod1{
+	pixel_y = -4
+	},
+/turf/open/floor/rogue/cobble,
+/area/rogue)
 "RC" = (
 /obj/structure/chair/wood/rogue/chair4{
 	dir = 8
@@ -13311,6 +13659,16 @@
 /area/rogue)
 "Sj" = (
 /turf/closed/wall/mineral/rogue/perserdun/outercorner/dir1,
+/area/rogue)
+"Sk" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 2
+	},
+/obj/structure/fluff/walldeco/statue/rod1{
+	pixel_y = 4
+	},
+/turf/open/floor/rogue/cobble,
 /area/rogue)
 "Sl" = (
 /obj/structure/fluff/railing/wood{
@@ -13932,6 +14290,21 @@
 /obj/item/clothing/head/roguetown/roguehood,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue)
+"Ug" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 2
+	},
+/obj/structure/fluff/statue/knight/interior/r{
+	pixel_y = 6;
+	pixel_x = -4
+	},
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 4
+	},
+/turf/open/floor/rogue/blocks/stonered,
+/area/rogue)
 "Uh" = (
 /obj/machinery/gear_painter,
 /turf/open/floor/rogue/ruinedwood/turned,
@@ -14027,6 +14400,10 @@
 	dir = 1
 	},
 /obj/structure/fluff/railing/corner,
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 4
+	},
 /turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "Uz" = (
@@ -14039,16 +14416,24 @@
 /turf/open/floor/rogue/naturalstone,
 /area/rogue)
 "UB" = (
-/obj/structure/fluff/walldeco/serpflag{
-	pixel_x = 32
+/obj/effect/decal/edge{
+	color = "#3f3f3f"
 	},
-/turf/closed/wall/smooth,
+/turf/open/floor/rogue/grassyel,
 /area/rogue)
 "UC" = (
 /obj/machinery/light/rogue/torchholder{
 	pixel_y = 32
 	},
 /turf/open/floor/rogue/cobble,
+/area/rogue)
+"UD" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 2
+	},
+/obj/structure/fluff/walldeco/bigpainting/lake,
+/turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "UF" = (
 /obj/effect/decal/cobbleedge{
@@ -14081,6 +14466,10 @@
 "UL" = (
 /turf/open/floor/rogue/woodturned/nosmooth,
 /area/rogue)
+"UN" = (
+/obj/machinery/light/rogue/wallfire/candle/weak/r,
+/turf/open/floor/rogue/blocks/stonered/tiny,
+/area/rogue)
 "UQ" = (
 /obj/structure/vine{
 	icon_state = "bloodl2";
@@ -14094,6 +14483,21 @@
 	pixel_y = 31
 	},
 /turf/open/floor/rogue/herringbone,
+/area/rogue)
+"US" = (
+/obj/structure/closet/crate/drawer/filing/random{
+	pixel_y = 6
+	},
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 2
+	},
+/obj/effect/decal/edge_corner{
+	color = "#3f3f3f";
+	dir = 8
+	},
+/obj/machinery/light/rogue/wallfire/candle/weak/l,
+/turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "UU" = (
 /obj/machinery/light/rogue/hearth,
@@ -14584,6 +14988,19 @@
 /obj/machinery/light/rogue/torchholder/l,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue)
+"WD" = (
+/obj/effect/decal/cobble/mossy{
+	dir = 4
+	},
+/obj/structure/flora/roguegrass{
+	pixel_x = -6
+	},
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 4
+	},
+/turf/open/floor/rogue/dirt,
+/area/rogue)
 "WE" = (
 /obj/effect/decal/mossy{
 	dir = 8
@@ -14672,6 +15089,10 @@
 	pixel_x = -14
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue)
+"WQ" = (
+/obj/machinery/light/rogue/wallfire/candle/weak/l,
+/turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
 "WR" = (
 /obj/structure/fluff/statue/tdummy,
@@ -92717,7 +93138,7 @@ ec
 ec
 ec
 ec
-Bz
+UB
 hY
 hY
 hY
@@ -92900,63 +93321,63 @@ ec
 rI
 py
 xQ
-HU
-CT
-CT
-CT
-CT
-CT
-CT
+kn
+OG
+OG
+OG
+OG
+OG
+OG
 OU
 OU
 ec
 ec
 ec
-Bz
-Bz
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-Bz
-Bz
+gX
+tf
+tj
+BO
+BO
+dW
+tj
+tj
+tj
+bS
+bS
+BJ
+tf
+Qd
+tj
+UW
+tj
+UW
+WD
+tf
+tj
+UW
+UW
+tj
+tf
+tf
+tf
+Nk
 ec
 ec
 ec
-Bz
-Bz
-CT
-CT
-CT
-CT
-CT
-CT
+tf
+Nk
+OG
+OG
+OG
+OG
+OG
+OG
 ec
 ec
 ec
 ec
 ec
-HU
+tb
 OG
 OG
 OG
@@ -93127,62 +93548,62 @@ fw
 rI
 xQ
 Wt
-HU
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-HU
+kn
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+kn
 ec
 ec
 ec
-HU
+Hw
 hY
 hY
 hY
@@ -93354,63 +93775,63 @@ HU
 Wt
 py
 py
-HU
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-HU
-HU
+CJ
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OP
+Si
 py
 xQ
-HU
-HU
+pn
+JE
 OG
 OG
 OG
@@ -93581,63 +94002,63 @@ HU
 iA
 xQ
 py
-HU
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-HU
-HU
+rI
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+Yx
+ID
 xQ
 Wt
-HU
-HU
+kn
+av
 OG
 OG
 OG
@@ -93808,63 +94229,63 @@ HU
 py
 py
 iA
-HU
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-UB
-CT
-HU
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
-HU
+kn
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+Ll
+Xf
+kn
+rI
+kn
+kn
+OG
+OG
+OG
+kn
 Wt
 py
 py
-HU
-HU
+aq
+av
 OG
 OG
 OG
@@ -94024,34 +94445,34 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
+OG
+OG
+OG
 HU
 HU
 HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
-CT
+OG
+UK
+bv
+kn
+kn
+kn
+kn
+kn
+PQ
+kn
+kn
+kn
+Kc
+xt
+OG
+OG
+OG
+OG
+OG
 Pm
 rI
 qE
@@ -94071,27 +94492,27 @@ OG
 OG
 OG
 OG
-HU
-MU
-En
-We
-En
-MU
+tb
+kn
+BA
+Gv
+dk
+kn
 JH
 ec
 ec
 ec
 ec
 JH
-HU
-HU
-HU
-HU
+OG
+OG
+FB
+kn
 iA
 xQ
 py
-HU
-HU
+kn
+av
 OG
 OG
 OG
@@ -94251,9 +94672,9 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
+OG
+OG
+OG
 HU
 HU
 HU
@@ -94273,12 +94694,12 @@ tT
 tT
 tT
 tT
-HU
-HU
-CT
-CT
-CT
-CT
+kn
+kn
+OG
+OG
+OG
+OG
 Pc
 lg
 lg
@@ -94298,11 +94719,11 @@ OG
 OG
 OG
 OG
-HU
+OG
 MU
-AJ
-AJ
-AJ
+En
+We
+En
 MU
 ec
 pS
@@ -94310,15 +94731,15 @@ ke
 hd
 rN
 ec
-HU
-HU
-HU
-HU
+OG
+OG
+tb
+kn
 py
 py
 iA
-HU
-HU
+kn
+av
 OG
 OG
 OG
@@ -94473,17 +94894,17 @@ HU
 ks
 qe
 ks
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
-HU
-HU
-HU
+OG
+OG
+OG
+eX
+vE
+OG
+OG
+OG
+sQ
+io
+xs
 HU
 tT
 tT
@@ -94501,11 +94922,11 @@ FF
 FF
 tT
 tT
-HU
-CT
-CT
-CT
-CT
+mc
+OG
+OG
+OG
+OG
 Pc
 lg
 HO
@@ -94525,8 +94946,8 @@ OG
 OG
 OG
 OG
-HU
-En
+Lm
+MU
 AJ
 AJ
 AJ
@@ -94537,18 +94958,18 @@ hY
 uj
 bN
 ec
-HU
-HU
+FB
+OG
 DC
 En
 ec
 ec
 ec
 En
-HU
-CT
-CT
-CT
+Jx
+OG
+OG
+OG
 ec
 rU
 ZH
@@ -94700,17 +95121,17 @@ HU
 ks
 DV
 ks
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
-HU
-HU
-HU
+OG
+OG
+OG
+kn
+kn
+OG
+OG
+OG
+sQ
+ok
+OL
 HU
 tT
 ri
@@ -94728,14 +95149,14 @@ FF
 FF
 FF
 lP
-HU
-CT
-CT
-CT
-CT
+VW
+OG
+OG
+OG
+OG
 cz
 lg
-mt
+mf
 Ib
 xv
 kY
@@ -94745,14 +95166,14 @@ ps
 xv
 kY
 Ib
-Lg
+gz
 lg
 SE
 OG
 OG
 OG
 OG
-HU
+kn
 En
 AJ
 AJ
@@ -94764,18 +95185,18 @@ ZP
 uj
 bN
 ij
-HU
-HU
+th
+OG
 En
 En
 kz
 AJ
 kl
 ec
-HU
-CT
-CT
-CT
+Jx
+OG
+OG
+OG
 ec
 En
 En
@@ -94932,12 +95353,12 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-HU
-HU
-HU
+OG
+OG
+OG
+ZC
+lq
+kn
 HU
 tT
 ri
@@ -94955,14 +95376,14 @@ FF
 FF
 FF
 tT
-HU
-CT
-CT
-CT
-CT
+kO
+OG
+OG
+OG
+OG
 Pc
 lg
-CG
+Sk
 AW
 AW
 AW
@@ -94972,18 +95393,18 @@ ps
 AW
 AW
 AW
-Wj
+RB
 lg
 fm
 OG
 OG
 OG
 OG
-HU
+Yx
 En
 AJ
-OU
-Fc
+AJ
+AJ
 MU
 ec
 vB
@@ -94991,18 +95412,18 @@ Xs
 wL
 QK
 ec
-HU
-HU
+FB
+OG
 En
 JK
 vy
 AJ
 kw
 ec
-HU
-CT
-CT
-CT
+zd
+OG
+OG
+OG
 HU
 HU
 HU
@@ -95159,9 +95580,9 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
+OG
+OG
+OG
 HU
 HU
 HU
@@ -95182,14 +95603,14 @@ FF
 FF
 FF
 lP
-HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
 rI
 lg
-kY
+vo
 AW
 Rd
 Xj
@@ -95199,18 +95620,18 @@ ps
 dw
 Cj
 AW
-xv
+wO
 lg
 GL
 OG
 OG
 OG
 OG
-HU
+tb
 En
-MU
-MU
-MU
+AJ
+OU
+Fc
 MU
 ec
 ec
@@ -95218,18 +95639,18 @@ ec
 ec
 gM
 ec
-HU
-HU
+OG
+OG
 En
 En
 hL
 xX
 VM
 ec
-HU
-CT
-CT
-CT
+fC
+OG
+OG
+OG
 HU
 HU
 HU
@@ -95386,9 +95807,9 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
+OG
+OG
+OG
 HU
 HU
 HU
@@ -95409,11 +95830,11 @@ FF
 FF
 tT
 tT
-HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
 rI
 lg
 lg
@@ -95433,30 +95854,30 @@ OG
 OG
 OG
 OG
-HU
-HU
-HU
-HU
-HU
-HU
+OG
+En
+MU
+MU
+MU
+MU
 ec
 ec
 LU
 LU
 dn
 ec
-HU
-HU
+OG
+OG
 sJ
 ec
 nO
 AJ
 En
 En
-HU
-CT
-CT
-CT
+rI
+OG
+OG
+OG
 HU
 HU
 HU
@@ -95613,14 +96034,14 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
+OG
+OG
+OG
 HU
 HU
 HU
-HU
-HU
+SE
+XW
 tT
 tT
 tT
@@ -95635,12 +96056,12 @@ tT
 tT
 tT
 tT
-HU
-HU
-CT
-CT
-CT
-CT
+yJ
+Rn
+OG
+OG
+OG
+OG
 HZ
 lg
 mt
@@ -95660,30 +96081,30 @@ OG
 OG
 OG
 OG
-HU
-HU
-HU
-HU
-HU
-HU
+zc
+tb
+OG
+OG
+tb
+tb
 JH
 ec
 ec
 ec
 ec
 JH
-HU
-HU
+OG
+OG
 sJ
 En
 yG
 jJ
 En
 Hw
-HU
-CT
-CT
-CT
+jN
+OG
+OG
+OG
 HU
 HU
 HU
@@ -95840,34 +96261,34 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
+OG
+OG
+OG
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
-CT
+OG
+XW
+kn
+kn
+kn
+kn
+kn
+Bk
+kn
+uW
+rI
+tA
+kn
+av
+nU
+CS
+wo
+Rn
+OG
+OG
+OG
+OG
 sJ
 lg
 CG
@@ -95892,25 +96313,25 @@ OG
 OG
 OG
 OG
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -96067,8 +96488,8 @@ HU
 HU
 HU
 HU
-CT
-CT
+OG
+OG
 OG
 OG
 OG
@@ -96119,25 +96540,25 @@ OG
 OG
 OG
 OG
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -96294,8 +96715,8 @@ HU
 HU
 HU
 HU
-CT
-CT
+OG
+OG
 OG
 OG
 OG
@@ -96346,25 +96767,25 @@ OG
 OG
 OG
 OG
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -96521,8 +96942,8 @@ HU
 HU
 HU
 HU
-CT
-CT
+OG
+OG
 OG
 OG
 OG
@@ -96573,25 +96994,25 @@ tg
 nI
 OG
 OG
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -96800,10 +97221,10 @@ ec
 sx
 rr
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -96815,10 +97236,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -97027,10 +97448,10 @@ ec
 ec
 JH
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 En
@@ -97042,10 +97463,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -97254,10 +97675,10 @@ ec
 ec
 sx
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 ec
@@ -97269,10 +97690,10 @@ En
 En
 En
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -97481,10 +97902,10 @@ ec
 ec
 ec
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 ec
@@ -97496,10 +97917,10 @@ iS
 wb
 ec
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -97708,10 +98129,10 @@ ec
 ec
 ec
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 En
@@ -97723,10 +98144,10 @@ Op
 xd
 En
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -97950,10 +98371,10 @@ Id
 Op
 jp
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -98162,10 +98583,10 @@ ec
 ec
 JH
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 En
@@ -98177,10 +98598,10 @@ bY
 Op
 ec
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -98389,10 +98810,10 @@ Wt
 py
 xQ
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 En
@@ -98404,10 +98825,10 @@ En
 ec
 En
 xr
-Me
-CT
-CT
-CT
+hf
+OG
+OG
+OG
 HU
 HU
 HU
@@ -98616,10 +99037,10 @@ xQ
 xQ
 hY
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 ec
@@ -98631,10 +99052,10 @@ AJ
 AJ
 En
 QE
-wq
-CT
-CT
-CT
+hM
+OG
+OG
+OG
 HU
 HU
 HU
@@ -98843,10 +99264,10 @@ Wt
 hY
 py
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 ec
@@ -98858,10 +99279,10 @@ AJ
 AJ
 yG
 SA
-wq
-CT
-CT
-CT
+hM
+OG
+OG
+OG
 HU
 HU
 HU
@@ -99070,10 +99491,10 @@ iA
 xQ
 hY
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 En
@@ -99085,10 +99506,10 @@ AJ
 AJ
 ec
 SA
-wq
-CT
-CT
-CT
+hM
+OG
+OG
+OG
 HU
 HU
 HU
@@ -99287,7 +99708,7 @@ AW
 AW
 tE
 lg
-kn
+yC
 OG
 OG
 OG
@@ -99297,10 +99718,10 @@ py
 py
 iA
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 En
@@ -99312,10 +99733,10 @@ AJ
 AJ
 We
 Ec
-Kf
-CT
-CT
-CT
+Nj
+OG
+OG
+OG
 HU
 HU
 HU
@@ -99514,7 +99935,7 @@ mE
 bz
 Jg
 lg
-OG
+Kq
 OG
 OG
 OG
@@ -99524,10 +99945,10 @@ ec
 ec
 JH
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 En
@@ -99539,10 +99960,10 @@ AJ
 AJ
 ec
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -99689,13 +100110,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -99741,7 +100162,7 @@ lg
 lg
 lg
 lg
-OG
+Kq
 OG
 OG
 OG
@@ -99751,10 +100172,10 @@ ec
 ec
 ec
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 En
@@ -99766,10 +100187,10 @@ AJ
 AJ
 En
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -99916,13 +100337,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -99968,7 +100389,7 @@ Wj
 lg
 Rn
 OK
-kn
+TQ
 OG
 OG
 OG
@@ -99978,10 +100399,10 @@ ec
 ec
 ec
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 En
@@ -99993,10 +100414,10 @@ En
 En
 ec
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -100143,13 +100564,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -100195,7 +100616,7 @@ So
 lg
 hl
 nx
-kn
+TQ
 OG
 OG
 OG
@@ -100205,10 +100626,10 @@ ec
 ec
 ec
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 En
@@ -100220,10 +100641,10 @@ En
 En
 xr
 EU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -100370,13 +100791,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -100422,7 +100843,7 @@ lg
 lg
 kn
 kn
-kn
+TQ
 OG
 OG
 OG
@@ -100432,10 +100853,10 @@ ec
 ec
 sx
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 En
@@ -100447,10 +100868,10 @@ Wo
 MU
 QE
 Tk
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -100597,13 +101018,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -100635,21 +101056,21 @@ OG
 OG
 OG
 OG
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
+Or
+eX
+jB
+SE
+Pq
 kn
+ZE
+Pq
+CM
+SE
+Pq
 kn
-kn
+SE
+Pq
+YC
 OG
 OG
 OG
@@ -100659,10 +101080,10 @@ ec
 sx
 JH
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 JH
@@ -100674,10 +101095,10 @@ Bx
 yG
 SA
 Tk
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -100824,13 +101245,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -100880,16 +101301,16 @@ OG
 OG
 OG
 OG
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 MU
@@ -100901,10 +101322,10 @@ lE
 MU
 SA
 Tk
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -101051,13 +101472,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -101107,16 +101528,16 @@ OG
 OG
 OG
 OG
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 MU
@@ -101128,10 +101549,10 @@ AJ
 We
 Ec
 mZ
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -101278,13 +101699,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -101334,16 +101755,16 @@ OG
 OG
 OG
 OG
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 MU
@@ -101355,10 +101776,10 @@ En
 MU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -101505,13 +101926,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -101561,16 +101982,16 @@ OG
 OG
 OG
 OG
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 JH
@@ -101582,10 +102003,10 @@ yG
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -101732,13 +102153,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -101794,10 +102215,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 MU
@@ -101809,10 +102230,10 @@ MU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -101959,13 +102380,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -102021,10 +102442,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 En
@@ -102036,10 +102457,10 @@ En
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -102186,13 +102607,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -102248,10 +102669,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -102263,10 +102684,10 @@ En
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -102413,13 +102834,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -102475,10 +102896,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -102490,10 +102911,10 @@ En
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -102640,13 +103061,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -102702,10 +103123,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -102717,10 +103138,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -102867,13 +103288,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -102929,10 +103350,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -102944,10 +103365,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -103094,13 +103515,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -103156,10 +103577,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -103171,10 +103592,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -103321,13 +103742,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -103383,10 +103804,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -103398,10 +103819,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -103548,13 +103969,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -103610,10 +104031,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -103625,10 +104046,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -103775,13 +104196,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -103837,10 +104258,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -103852,10 +104273,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -104002,13 +104423,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -104064,10 +104485,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -104077,12 +104498,12 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -104229,13 +104650,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -104291,10 +104712,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -104304,12 +104725,12 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -104456,13 +104877,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -104518,10 +104939,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -104531,12 +104952,12 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -104683,13 +105104,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -104745,10 +105166,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -104758,12 +105179,12 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -104910,13 +105331,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -104972,10 +105393,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -104985,12 +105406,12 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -105137,13 +105558,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -105199,10 +105620,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -105212,12 +105633,12 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -105364,13 +105785,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -105426,10 +105847,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -105439,10 +105860,10 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -105591,13 +106012,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -105653,23 +106074,23 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -105818,13 +106239,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -105880,23 +106301,23 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -106045,13 +106466,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -106107,23 +106528,23 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -106272,13 +106693,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -106334,23 +106755,23 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
-CT
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
+OG
 HU
 HU
 HU
@@ -106499,13 +106920,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -106726,13 +107147,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -106953,13 +107374,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -107180,13 +107601,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -107407,13 +107828,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -107634,13 +108055,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -107861,13 +108282,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -108093,7 +108514,7 @@ ec
 ec
 ec
 ec
-sx
+ec
 ec
 ec
 sx
@@ -108542,7 +108963,7 @@ ec
 ec
 sx
 sx
-sx
+ec
 ec
 ec
 ec
@@ -145589,7 +146010,7 @@ lg
 lg
 DJ
 AW
-DJ
+US
 AW
 DJ
 lg
@@ -146266,13 +146687,13 @@ OU
 OU
 lg
 Cx
-fz
+JO
 lg
+UN
 AW
 AW
 AW
-AW
-AW
+UN
 lg
 fz
 BI
@@ -146492,7 +146913,7 @@ HU
 OU
 OU
 lg
-CG
+HP
 AW
 lg
 lg
@@ -146502,7 +146923,7 @@ lg
 lg
 lg
 AW
-Wj
+rw
 lg
 OU
 OU
@@ -146719,17 +147140,17 @@ HU
 OU
 OU
 lg
-CG
+Kf
 AW
 xv
-fz
+jS
 kY
 AW
 xv
-fz
+jS
 kY
 AW
-Wj
+re
 lg
 OU
 OU
@@ -146946,7 +147367,7 @@ HU
 OU
 OU
 lg
-CG
+lb
 AW
 AW
 AW
@@ -146956,7 +147377,7 @@ AW
 AW
 AW
 AW
-Wj
+wq
 lg
 OU
 OU
@@ -147173,7 +147594,7 @@ HU
 OU
 OU
 lg
-CG
+fq
 AW
 Lg
 MW
@@ -147183,7 +147604,7 @@ Pl
 Ts
 mt
 AW
-Wj
+JZ
 lg
 OU
 OU
@@ -147400,7 +147821,7 @@ HU
 OU
 OU
 lg
-CG
+Me
 AW
 Wj
 od
@@ -147410,7 +147831,7 @@ pu
 OW
 CG
 AW
-Wj
+qj
 lg
 OU
 OU
@@ -147854,17 +148275,17 @@ HU
 OU
 OU
 lg
-kY
+MQ
 AW
-Wj
+oR
 BW
 tC
 tO
 Vg
 Uy
-CG
+Ug
 AW
-xv
+IP
 lg
 OU
 OU
@@ -148308,17 +148729,17 @@ HU
 OU
 OU
 lg
-mt
+dz
 AW
 lg
 FM
 Mx
-Mx
+WQ
 Mx
 FM
 lg
 AW
-Lg
+rw
 lg
 OU
 OU
@@ -148535,7 +148956,7 @@ HU
 OU
 OU
 lg
-CG
+Kf
 AW
 lg
 FM
@@ -148545,7 +148966,7 @@ AW
 FM
 lg
 AW
-Wj
+re
 lg
 OU
 OU
@@ -148762,7 +149183,7 @@ HU
 OU
 OU
 lg
-CG
+lb
 AW
 ie
 AW
@@ -148772,7 +149193,7 @@ AW
 AW
 ie
 AW
-Wj
+wq
 lg
 OU
 OU
@@ -148989,7 +149410,7 @@ HU
 OU
 OU
 lg
-CG
+fq
 AW
 lg
 AW
@@ -148999,7 +149420,7 @@ Nx
 AW
 lg
 AW
-Wj
+JZ
 lg
 OU
 OU
@@ -149216,7 +149637,7 @@ HU
 OU
 OU
 lg
-CG
+Me
 AW
 lg
 AW
@@ -149226,7 +149647,7 @@ AW
 AW
 lg
 AW
-Wj
+qj
 lg
 OU
 OU
@@ -149443,7 +149864,7 @@ HU
 OU
 OU
 lg
-CG
+UD
 AW
 lg
 lg
@@ -149453,7 +149874,7 @@ lg
 lg
 lg
 AW
-Wj
+Bm
 lg
 OU
 OU
@@ -149670,17 +150091,17 @@ HU
 OU
 OU
 lg
-CG
+HP
 AW
 lg
 AW
 AW
-AW
+hc
 Mx
 Mx
 lg
 AW
-Wj
+rw
 lg
 OU
 OU
@@ -149897,7 +150318,7 @@ HU
 OU
 OU
 lg
-CG
+Kf
 AW
 lg
 AW
@@ -149907,7 +150328,7 @@ AW
 AW
 lg
 AW
-Wj
+re
 lg
 OU
 OU
@@ -150124,7 +150545,7 @@ HU
 OU
 OU
 lg
-CG
+lb
 AW
 lg
 on
@@ -150134,7 +150555,7 @@ AW
 AW
 ie
 AW
-Wj
+wq
 lg
 OU
 OU
@@ -150351,7 +150772,7 @@ HU
 OU
 OU
 lg
-CG
+fq
 AW
 lg
 AW
@@ -150361,7 +150782,7 @@ AW
 AW
 lg
 AW
-Wj
+JZ
 lg
 OU
 OU
@@ -150578,17 +150999,17 @@ HU
 OU
 OU
 lg
-zN
+ay
 mt
 lg
 AW
 FM
-AW
+UN
 FM
 FM
 lg
 Lg
-So
+uo
 lg
 OU
 OU
