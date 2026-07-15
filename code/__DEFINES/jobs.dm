@@ -258,6 +258,7 @@
 
 #define FOREIGNER (1<<0)
 #define PIONEER (1<<2)
+#define ZOMBIE 	(1<<3)
 
 
 #define JCOLOR_NOBLE "#aa83b9"
@@ -321,6 +322,7 @@
 // UNAFFILIATED
 #define JDO_FOREIGNER 4.0
 #define JDO_PIONEER 4.1
+#define JDO_ZOMBIE 4.2
 
 #define PERSERDUN_ROLES \
 	/datum/job/roguetown/grandmaster,\
@@ -362,4 +364,5 @@
 
 #define UNAFFILIATED_ROLES \
 	/datum/job/roguetown/adventurer,\
-	/datum/job/roguetown/pioneer
+	/datum/job/roguetown/pioneer,\
+	/datum/job/roguetown/deadite
