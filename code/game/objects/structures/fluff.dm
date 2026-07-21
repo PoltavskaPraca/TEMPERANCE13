@@ -861,6 +861,14 @@
 	name = "rack"
 	icon_state = "rack"
 
+/obj/structure/fluff/statue/banner
+	name = "arderlan banner"
+	icon_state = "banner"
+
+/obj/structure/fluff/statue/banner/brown
+	name = "old banner"
+	icon_state = "brownbanner"
+
 /obj/structure/fluff/statue/gargoyle/candles
 	icon_state = "gargoyle_candles"
 
