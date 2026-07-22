@@ -253,7 +253,15 @@
 #define HOUSEKEEPER (1<<6)
 #define MANORSERVANT (1<<8)
 
-#define UNAFFILIATED (1<<15)
+#define HUNTERS (1<<15)
+
+#define HUNTMASTER (1<<0) // 1 slot leadership with scale armor drip
+#define HEDGEBORN (1<<1) // 1 slot plate role. Inbetween GK and KCDR in terms of power
+#define HUNTSTEWARD (1<<2) // 3 slot officer role
+#define MOUNTEBANK (1<<3) // 3 slot medic role
+#define HUNTSMAN (1<<4) // 16 slot standard soldier. Can select risvon/perserdun origin for loadout adjustments
+
+#define UNAFFILIATED (1<<16)
 
 #define FOREIGNER (1<<0)
 #define PIONEER (1<<2)
@@ -273,6 +281,7 @@
 #define JCOLOR_RISVON "#913333"
 #define JCOLOR_KINGSROW "#31437c"
 #define JCOLOR_UNAFFILIATE "#929159"
+#define JCOLOR_HUNTER "#3b473b"
 
 // job display orders //
 
@@ -323,6 +332,13 @@
 #define JDO_PIONEER 4.1
 #define JDO_ZOMBIE 4.2
 
+// HUNTERS PARTY
+#define JDO_HUNTMASTER 5
+#define JDO_HEDGEBORN 5.1
+#define JDO_HUNTSTEWARD 5.2
+#define JDO_MOUNTEBANK 5.3
+#define JDO_HUNTSMAN 5.4
+
 #define PERSERDUN_ROLES \
 	/datum/job/roguetown/grandmaster,\
 	/datum/job/roguetown/warpriest,\
@@ -365,3 +381,10 @@
 	/datum/job/roguetown/adventurer,\
 	/datum/job/roguetown/pioneer,\
 	/datum/job/roguetown/deadite
+
+#define HUNTER_ROLES \
+	/datum/job/roguetown/huntmaster,\
+	/datum/job/roguetown/hedgeborn,\
+	/datum/job/roguetown/huntsteward,\
+	/datum/job/roguetown/mountebank,\
+	/datum/job/roguetown/huntmaster
