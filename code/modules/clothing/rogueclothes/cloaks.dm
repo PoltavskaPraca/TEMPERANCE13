@@ -1987,3 +1987,10 @@
 	icon_state = "bishopcloak"
 	color = null
 	allowed_race = NON_DWARVEN_RACE_TYPES
+
+/obj/item/clothing/cloak/huntabard
+	name = "ratty tabard"
+	desc = "A patchwork and darkened cloth tabard, certainly not a product of the MACHINES."
+	icon_state = "huntabard"
+	color = null
+	allowed_race = NON_DWARVEN_RACE_TYPES
