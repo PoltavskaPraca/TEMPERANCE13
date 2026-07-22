@@ -1433,3 +1433,24 @@
 	desc = "Drained of blood."
 	icon_state = "white_stag"
 	icon = 'icons/roguetown/misc/tallandwide.dmi'
+
+/obj/structure/fluff/statue/gabbr
+	icon_state = "gabbr"
+
+/obj/structure/fluff/statue/spider
+	icon_state = "spider"
+
+/obj/structure/fluff/statue/sun
+	icon_state = "sun"
+
+/obj/structure/fluff/statue/tris
+	icon_state = "tris"
+
+/obj/structure/fluff/statue/ifrit
+	icon_state = "ifrit"
+
+/obj/structure/fluff/statue/greg
+	icon_state = "greg"
+
+/obj/structure/fluff/statue/trick
+	icon_state = "trick"
