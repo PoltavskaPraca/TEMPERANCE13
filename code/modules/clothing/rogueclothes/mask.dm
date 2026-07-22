@@ -90,7 +90,7 @@
 
 /obj/item/clothing/mask/rogue/wildguard
 	name = "wild guard"
-	desc = "A mask shaped after the snarling beasts of Dendor."
+	desc = "A mask shaped after the snarling beasts of the night."
 	icon_state = "wildguard"
 	blocksound = PLATEHIT
 	break_sound = 'sound/foley/breaksound.ogg'
@@ -463,3 +463,8 @@
 
 /obj/item/clothing/mask/rogue/bulwark/ComponentInitialize()
 	AddComponent(/datum/component/adjustable_clothing, NECK, null, null, 'sound/foley/equip/rummaging-03.ogg', null, (UPD_HEAD|UPD_MASK))	//Standard mask
+
+/obj/item/clothing/mask/rogue/gasmask/mountebank
+	name = "beaked mask"
+	desc = "A unique 'gas mask' with a beaklike appearance. While it has no filters, its packed with enough herbs to protect you. Maybe."
+	icon_state = "feldmask"

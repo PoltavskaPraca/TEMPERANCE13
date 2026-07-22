@@ -249,3 +249,9 @@
 	smelt_bar_num = 2
 	max_integrity = ARMOR_INT_CHEST_PLATE_IRON
 	body_parts_covered = CHEST | GROIN | VITALS | LEGS | ARMS | NECK
+
+// Mechanically no different, this just uses the iron hauberk sprite from Azure, so it looks different
+
+/obj/item/clothing/suit/roguetown/armor/plate/hauberk/alt
+	desc = "A thick iron breastplate over a sturdy hauberk. This one has seen a plethora of use."
+	icon_state = "icuirasshauberk"
