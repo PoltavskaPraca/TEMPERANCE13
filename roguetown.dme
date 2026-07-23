@@ -2622,6 +2622,8 @@
 #include "modular_temperance\code\modules\classunique\midsomber\bind_weapon.dm"
 #include "modular_temperance\code\modules\classunique\midsomber\funeral.dm"
 #include "modular_temperance\code\modules\classunique\midsomber\recall_weapon.dm"
+#include "modular_temperance\code\modules\misc\cannedfood.dm"
+#include "modular_temperance\code\modules\misc\cannedfood_types.dm"
 #include "modular_temperance\code\modules\projectiles\gun_debug.dm"
 #include "modular_temperance\code\reagents\drugs\heroin.dm"
 #include "modular_temperance\code\reagents\drugs\meth.dm"
