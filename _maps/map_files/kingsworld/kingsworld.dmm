@@ -429,6 +429,37 @@
 "atJ" = (
 /turf/closed/wall/mineral/rogue/miscroof/middle/dir1,
 /area/rogue/under/cave/warmachine)
+"atK" = (
+/obj/effect/decal/cleanable/dirt/grime/dust,
+/obj/structure/closet/crate/chest/old_crate{
+	anchored = 1;
+	name = "RATIONS"
+	},
+/obj/item/reagent_containers/food/snacks/canned/apple,
+/obj/item/reagent_containers/food/snacks/canned/apple,
+/obj/item/reagent_containers/food/snacks/canned/apple,
+/obj/item/reagent_containers/food/snacks/canned/apple,
+/obj/item/reagent_containers/food/snacks/canned/apple,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/fish,
+/obj/item/reagent_containers/food/snacks/canned/fish,
+/obj/item/reagent_containers/food/snacks/canned/fish,
+/obj/item/reagent_containers/food/snacks/canned/fish,
+/obj/item/reagent_containers/food/snacks/canned/loaf,
+/obj/item/reagent_containers/food/snacks/canned/loaf,
+/obj/item/reagent_containers/food/snacks/canned/loaf,
+/obj/item/reagent_containers/food/snacks/canned/loaf,
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "atN" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/dirt/grime/grime2,
@@ -1198,9 +1229,32 @@
 /turf/open/floor/rogue/warmetal,
 /area/rogue/indoors/perserdunbase)
 "bdw" = (
-/obj/item/roguebin/crackers{
-	name = "CRACKERS"
+/obj/structure/closet/crate/chest/old_crate{
+	anchored = 1;
+	name = "RATIONS"
 	},
+/obj/item/reagent_containers/food/snacks/canned/fish,
+/obj/item/reagent_containers/food/snacks/canned/fish,
+/obj/item/reagent_containers/food/snacks/canned/mushrooms,
+/obj/item/reagent_containers/food/snacks/canned/mushrooms,
+/obj/item/reagent_containers/food/snacks/canned/mushrooms,
+/obj/item/reagent_containers/food/snacks/canned/mushrooms,
+/obj/item/reagent_containers/food/snacks/canned/mushrooms,
+/obj/item/reagent_containers/food/snacks/canned/mushrooms,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/sausage,
+/obj/item/reagent_containers/food/snacks/canned/sausage,
+/obj/item/reagent_containers/food/snacks/canned/sausage,
+/obj/item/reagent_containers/food/snacks/canned/suet,
+/obj/item/reagent_containers/food/snacks/canned/suet,
+/obj/item/reagent_containers/food/snacks/canned/suet,
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
 "bek" = (
@@ -9909,9 +9963,33 @@
 /turf/open/floor/rogue/twig,
 /area/rogue/outdoors/beach/forest/south)
 "jvY" = (
-/obj/item/roguebin/crackers{
-	name = "CRACKERS"
+/obj/structure/closet/crate/chest/old_crate{
+	anchored = 1;
+	name = "RATIONS"
 	},
+/obj/item/reagent_containers/food/snacks/canned/apple,
+/obj/item/reagent_containers/food/snacks/canned/apple,
+/obj/item/reagent_containers/food/snacks/canned/apple,
+/obj/item/reagent_containers/food/snacks/canned/apple,
+/obj/item/reagent_containers/food/snacks/canned/apple,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/obj/item/reagent_containers/food/snacks/canned/fish,
+/obj/item/reagent_containers/food/snacks/canned/fish,
+/obj/item/reagent_containers/food/snacks/canned/fish,
+/obj/item/reagent_containers/food/snacks/canned/fish,
+/obj/item/reagent_containers/food/snacks/canned/loaf,
+/obj/item/reagent_containers/food/snacks/canned/loaf,
+/obj/item/reagent_containers/food/snacks/canned/loaf,
+/obj/item/reagent_containers/food/snacks/canned/loaf,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "jwx" = (
@@ -25434,12 +25512,32 @@
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "xUX" = (
-/obj/structure/fluff/walldeco/commandant{
-	pixel_x = -32
+/obj/structure/closet/crate/chest/old_crate{
+	anchored = 1;
+	name = "RATIONS"
 	},
-/obj/item/roguebin/crackers{
-	name = "CRACKERS"
-	},
+/obj/item/reagent_containers/food/snacks/canned/fish,
+/obj/item/reagent_containers/food/snacks/canned/fish,
+/obj/item/reagent_containers/food/snacks/canned/mushrooms,
+/obj/item/reagent_containers/food/snacks/canned/mushrooms,
+/obj/item/reagent_containers/food/snacks/canned/mushrooms,
+/obj/item/reagent_containers/food/snacks/canned/mushrooms,
+/obj/item/reagent_containers/food/snacks/canned/mushrooms,
+/obj/item/reagent_containers/food/snacks/canned/mushrooms,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/rat,
+/obj/item/reagent_containers/food/snacks/canned/sausage,
+/obj/item/reagent_containers/food/snacks/canned/sausage,
+/obj/item/reagent_containers/food/snacks/canned/sausage,
+/obj/item/reagent_containers/food/snacks/canned/suet,
+/obj/item/reagent_containers/food/snacks/canned/suet,
+/obj/item/reagent_containers/food/snacks/canned/suet,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "xVf" = (
@@ -166401,7 +166499,7 @@ oAG
 oAG
 sdM
 oAG
-bdw
+atK
 oAG
 cZj
 oLE
