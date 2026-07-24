@@ -2826,6 +2826,14 @@
 /obj/structure/closet/crate/drawer,
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
+"dqY" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 2
+	},
+/obj/item/sandbag,
+/turf/open/floor/rogue/twig,
+/area/rogue)
 "drt" = (
 /obj/effect/decal/mossy,
 /turf/open/floor/rogue/grassyel,
@@ -4738,6 +4746,12 @@
 /obj/item/needle/thorn,
 /turf/open/floor/rogue/cobble,
 /area/rogue)
+"fqX" = (
+/obj/structure/fluff/railing/sandbag{
+	dir = 8
+	},
+/turf/open/floor/rogue/twig,
+/area/rogue)
 "frb" = (
 /obj/structure/fluff/railing/corner/south_west,
 /obj/effect/decal/edge{
@@ -5977,6 +5991,9 @@
 /obj/effect/decal/edge{
 	color = "#3f3f3f";
 	dir = 2
+	},
+/obj/structure/fluff/railing/sandbag{
+	dir = 8
 	},
 /turf/open/floor/rogue/twig,
 /area/rogue)
@@ -11530,6 +11547,10 @@
 	},
 /turf/open/floor/rogue/cobblerock,
 /area/rogue)
+"nis" = (
+/obj/item/sandbag,
+/turf/open/floor/rogue/twig,
+/area/rogue)
 "niu" = (
 /obj/effect/decal/edge{
 	color = "#3f3f3f";
@@ -15401,6 +15422,16 @@
 "rDl" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/rogue/blocks,
+/area/rogue)
+"rDF" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/obj/structure/fluff/railing/sandbag{
+	dir = 8
+	},
+/turf/open/floor/rogue/twig,
 /area/rogue)
 "rDH" = (
 /obj/effect/decal/cobbleedge{
@@ -20799,6 +20830,14 @@
 	dir = 4
 	},
 /turf/open/floor/rogue/grassred,
+/area/rogue)
+"xPl" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/obj/item/sandbag,
+/turf/open/floor/rogue/twig,
 /area/rogue)
 "xPw" = (
 /obj/structure/bed/rogue/inn/wool,
@@ -98240,12 +98279,12 @@ ksX
 fWU
 dFy
 ksX
-mFY
-mFY
-mFY
-mFY
-mFY
-mFY
+fqX
+fqX
+fqX
+nis
+fqX
+nis
 wad
 prD
 prD
@@ -98284,12 +98323,12 @@ prD
 prD
 prD
 dhR
-mFY
-mFY
-mFY
-mFY
-mFY
-mFY
+fqX
+fqX
+fqX
+nis
+fqX
+nis
 prD
 prD
 ksX
@@ -98749,11 +98788,11 @@ prD
 prD
 prD
 kFu
-mFY
-mFY
-mFY
-mFY
-mFY
+fqX
+nis
+nis
+nis
+fqX
 fdb
 wad
 wad
@@ -103465,19 +103504,19 @@ saN
 saN
 nER
 nER
-gTS
-mFY
-mFY
-cKB
+dqY
+fqX
+fqX
+xPl
 prD
 prD
 prD
 prD
 gTS
-mFY
-mFY
-mFY
-cKB
+fqX
+nis
+nis
+xPl
 hmO
 vFu
 gpT
@@ -103491,22 +103530,22 @@ gpT
 gpT
 aIa
 hmO
-mFY
-mFY
-mFY
-mFY
-cKB
+fqX
+nis
+fqX
+nis
+rDF
 prD
 prD
 prD
 prD
 gTS
-mFY
-mFY
-mFY
-mFY
-cKB
-mFY
+nis
+nis
+fqX
+fqX
+rDF
+nis
 vMM
 aUl
 qKj
