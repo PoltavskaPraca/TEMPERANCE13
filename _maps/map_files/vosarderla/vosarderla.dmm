@@ -610,6 +610,10 @@
 /obj/structure/bars/cemetery,
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue)
+"aNA" = (
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/dirt/road,
+/area/rogue)
 "aOP" = (
 /obj/structure/rack/rogue/shelf/big,
 /obj/structure/rack/rogue/shelf,
@@ -1877,6 +1881,10 @@
 /obj/item/reagent_containers/glass/bottle/rogue/healthpot,
 /turf/open/floor/rogue/hexstone,
 /area/rogue)
+"chZ" = (
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/dirt,
+/area/rogue)
 "cis" = (
 /obj/structure/stairs{
 	dir = 2
@@ -1955,6 +1963,7 @@
 /area/rogue)
 "cnp" = (
 /obj/effect/decal/cleanable/debris/woody,
+/obj/structure/timed_blocker,
 /turf/open/floor/rogue/grass,
 /area/rogue)
 "coF" = (
@@ -2111,6 +2120,11 @@
 	},
 /obj/structure/closet/crate/chest/lootbox,
 /turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue)
+"cyg" = (
+/obj/effect/decal/cleanable/debris/woody,
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/cobble,
 /area/rogue)
 "cyi" = (
 /obj/effect/decal/mossy{
@@ -3960,6 +3974,7 @@
 	dir = 1;
 	icon_state = "borderfall"
 	},
+/obj/structure/timed_blocker,
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue)
 "ewQ" = (
@@ -5526,6 +5541,14 @@
 	},
 /turf/open/transparent/openspace,
 /area/rogue)
+"gnf" = (
+/obj/effect/decal/mossy,
+/obj/effect/decal/mossy{
+	dir = 8
+	},
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/cobble,
+/area/rogue)
 "gnr" = (
 /obj/effect/decal/cobbleedge{
 	dir = 5
@@ -6015,6 +6038,13 @@
 "gZu" = (
 /obj/effect/decal/cleanable/dirt/grime/dust,
 /turf/open/floor/rogue/ruinedwood/turned,
+/area/rogue)
+"gZK" = (
+/obj/effect/decal/cobbleedge{
+	dir = 9
+	},
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/cobblerock,
 /area/rogue)
 "gZS" = (
 /obj/structure/fluff/railing/corner/north_east,
@@ -11064,6 +11094,10 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
+"mGL" = (
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/cobble/mossy,
+/area/rogue)
 "mHk" = (
 /obj/effect/decal/edge{
 	color = "#3f3f3f";
@@ -11162,6 +11196,10 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
+"mMy" = (
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/cobble,
+/area/rogue)
 "mNm" = (
 /obj/effect/decal/mossy{
 	dir = 4
@@ -11206,6 +11244,10 @@
 /obj/structure/flora/roguegrass,
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/rogue/grassyel,
+/area/rogue)
+"mPy" = (
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/grass,
 /area/rogue)
 "mPU" = (
 /obj/structure/bars/passage/shutter/open{
@@ -12339,6 +12381,10 @@
 	pixel_x = 32
 	},
 /turf/open/floor/rogue/herringbone,
+/area/rogue)
+"ogn" = (
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/cobblerock,
 /area/rogue)
 "ogU" = (
 /obj/structure/closet/crate/chest,
@@ -13720,6 +13766,13 @@
 	},
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue)
+"pES" = (
+/obj/effect/decal/mossy{
+	dir = 1
+	},
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/grass,
+/area/rogue)
 "pEX" = (
 /obj/structure/flora/roguegrass,
 /obj/structure/flora/ausbushes/brflowers,
@@ -14002,6 +14055,10 @@
 	dir = 1
 	},
 /turf/open/floor/rogue/grass,
+/area/rogue)
+"pUd" = (
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/grassyel,
 /area/rogue)
 "pUp" = (
 /obj/item/kitchen/spoon,
@@ -18585,6 +18642,14 @@
 /obj/structure/table/wood/funny/mid,
 /obj/structure/bars/shop,
 /turf/open/floor/rogue/cobble,
+/area/rogue)
+"vmn" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-n"
+	},
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/cobblerock,
 /area/rogue)
 "vmH" = (
 /obj/effect/decal/edge{
@@ -88530,7 +88595,7 @@ txG
 txG
 txG
 txG
-oKx
+chZ
 eZa
 fdb
 ldr
@@ -88550,8 +88615,8 @@ uFF
 vpO
 ekY
 oKx
-ekY
-aak
+gow
+chZ
 egT
 uFF
 ekY
@@ -88757,7 +88822,7 @@ dRq
 vMV
 sCx
 txG
-kFu
+aNA
 oKx
 lkN
 ucV
@@ -88778,7 +88843,7 @@ ekY
 oKx
 aak
 ekY
-oKx
+chZ
 iFT
 vpO
 nDo
@@ -88984,7 +89049,7 @@ qRg
 qRg
 rem
 mrW
-ulG
+gZK
 elY
 wKN
 wad
@@ -89001,11 +89066,11 @@ fdb
 fdb
 phK
 wxQ
-ekY
+vpO
 aak
 oKx
 ekY
-oKx
+chZ
 aak
 kRD
 wxQ
@@ -89211,28 +89276,28 @@ ahN
 dYJ
 ecU
 txG
-oKx
-oKx
-doH
-doH
-doH
-oKx
-rAA
+chZ
+chZ
+ogn
+ogn
+ogn
+chZ
+vmn
 cnp
-doH
-wad
-wad
-whp
-wad
-qCP
-fdb
-phK
-vpO
-uFF
-ekY
-oKx
-ekY
-oKx
+ogn
+mMy
+mMy
+cyg
+mMy
+gnf
+mGL
+pES
+mPy
+pUd
+mPy
+chZ
+mPy
+chZ
 aak
 uFF
 ekY
