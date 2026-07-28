@@ -165,3 +165,50 @@ Just because it'd get a LITTLE annoying if you kept seeing this over and over. H
 	description = "When the Imperials first arrived, this estate was completely levelled by the shelling - manor and all included. \n\
 	It's only been a month or two - yet most of the estate's been entirely rebuilt despite any real worksmen nor materials, though the exterior's been replaced with cold metal. \n\
 	Strangely enough, they say that the basement's been completely replaced and one of the main bedrooms went missing in the manor."
+
+/datum/loreblurb/holdout
+	title = "The Holdout"
+	description = "Civil Unrest within Arderla was once an unthinkable phenomenon, until Rab's continued disappearance even after the Great Perser-Risvonian War's ending two years ago. \n\
+	Rumors of something terrible and ancient ruling underneath the City have circulated for decades, culminating in the rediscovery of Nightwalkers (or Sanguines) living within society during the War. \n\
+	Holdouts like these have sprung up all over the City, in independent cells of resistance."
+	sound = 'sound/loredump/lore_sting8.ogg'
+
+/datum/loreblurb/residential
+	title = "Residential District"
+	description = "The 27 Wards that make up Vos Arderla are made out of at least three separate districts - Residential, Merchant, and Noble. \n\
+	Residential and Noble Districts typically have a higher concentration of population, with the former containing the most greenery & pleasant scenery."
+
+/datum/loreblurb/merchant
+	title = "Merchant's District"
+	description = "The Merchant's District here used to connect to Ward 25th's Industrial District from the South, until a large-scale confrontation a month ago had forced both Districts to section themselves off from each other."
+
+/datum/loreblurb/noble
+	title = "Noble's District"
+	description = "Noble Districts are well known to contain the most stone architecture and electricity. \n\
+	Despite traditionally being reserved for those of higher status, they've gradually transitioned into cultural centers for the City, with most nobility electing to reside within villas outside of the walls. \n\
+	Though, these Districts do often contain buildings important to the City, such as District Halls, the Watch, and Churches."
+
+/datum/loreblurb/graves
+	title = "Mass Graves"
+	description = "Many men were hanged here, buried in what used to be a tucked-away park."
+
+/datum/loreblurb/districthall
+	title = "District Hall"
+	description = "District Halls traditionally consist of two sections - the Chapel on the first floor and the Administrative Offices above. \n\
+	The Chapel is used every Wedding's and Sun's Day for teaching and services respectively, while the Offices are used on the daily."
+
+/datum/loreblurb/privatechurch
+	title = "Noble's Chapel"
+	description = "The existence of a 'private chapel' was primarily used to further separate nobility from commonfolk, having since been converted into places of private confession regardless of status."
+
+/datum/loreblurb/guardpod
+	title = "Guard Pod"
+	description = "These little things are rapid-deploy pods containing an armory and barracks for the Imperial Guard, lifted throughout the City by Logistician Mages."
+
+/datum/loreblurb/districtwatch
+	title = "The Watch"
+	description = "The last stand. The Imperial Guard's goal here is to prevent access to the tunnel entrance stationed at the top of the building, opposite of the stairway."
+
+/datum/loreblurb/oldcity
+	title = "Old City"
+	description = "It smells like old, rotten iron."
