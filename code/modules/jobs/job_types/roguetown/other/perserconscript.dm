@@ -39,7 +39,6 @@
 	cloak = /obj/item/clothing/cloak/perserduntrenchcoat
 	pants = /obj/item/clothing/under/roguetown/trou/artipants
 	head = /obj/item/clothing/head/roguetown/helmet/sallet/visored/iron
-	mask = /obj/item/clothing/mask/rogue/gasmask/perserdunmask
 	belt = /obj/item/storage/belt/rogue/leather/black/soldier
 	beltl = /obj/item/flashlight/flare/torch/lantern
 	beltr = /obj/item/storage/belt/rogue/pouch/ammobag/rifle

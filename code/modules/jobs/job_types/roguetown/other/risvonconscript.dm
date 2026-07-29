@@ -44,7 +44,6 @@
 	cloak = /obj/item/clothing/cloak/templar/malumite
 	pants = /obj/item/clothing/under/roguetown/heavy_leather_pants
 	head = /obj/item/clothing/head/roguetown/helmet/kettle/iron/soldato
-	mask = /obj/item/clothing/mask/rogue/gasmask/risvonmask
 	belt = /obj/item/storage/belt/rogue/leather/black/soldier
 	beltl = /obj/item/flashlight/flare/torch/lantern
 	beltr = /obj/item/storage/belt/rogue/pouch/ammobag/pistol
