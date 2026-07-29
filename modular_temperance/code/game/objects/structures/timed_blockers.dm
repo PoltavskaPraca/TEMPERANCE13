@@ -28,3 +28,18 @@
 	if(H.job in GLOB.perserdun_positions)
 		return TRUE
 	return FALSE
+
+
+/obj/structure/timed_blocker/twenty
+	timeleft = 20 MINUTES
+
+/obj/structure/timed_blocker/twentyfive
+	timeleft = 25 MINUTES
+
+/obj/structure/timed_blocker/thirty
+	timeleft = 30 MINUTES
+
+/obj/structure/timed_blocker/thirtyfive
+	timeleft = 35 MINUTES
+
+
