@@ -7,6 +7,10 @@
 /datum/map_adjustment/vosarderla
 	map_file_name = "vosarderla.dmm"
 	realm_name = "Vos Arderla"
+	slot_adjust = list(
+		/datum/job/roguetown/perserconscript = 20,
+		/datum/job/roguetown/risvonconscript = 20
+	)
 	blacklist = list(
 		/datum/job/roguetown/adventurer,
 		/datum/job/roguetown/pilgrim,
@@ -49,4 +53,5 @@
 		/datum/job/roguetown/mountebank,
 		/datum/job/roguetown/huntsman,
 		/datum/job/roguetown/deadite,
+		/datum/job/roguetown/barkeep
 	)
