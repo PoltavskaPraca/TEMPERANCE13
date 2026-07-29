@@ -585,6 +585,10 @@
 	},
 /turf/open/floor/rogue/grass,
 /area/rogue)
+"aLM" = (
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/grassyel,
+/area/rogue)
 "aLQ" = (
 /obj/effect/decal/carpet/square{
 	pixel_x = -18;
@@ -799,10 +803,10 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue)
 "aYJ" = (
-/obj/structure/roguemachine/scomm/r{
-	scom_tag = "Town Crier - Crier's Studio"
+/obj/structure/fluff/customsign{
+	name = "GO LEFT!!!"
 	},
-/turf/open/floor/rogue/tile/harem,
+/turf/open/floor/rogue/cobblerock,
 /area/rogue)
 "aYL" = (
 /obj/structure/chair/wood/rogue{
@@ -4904,6 +4908,7 @@
 	color = "#3f3f3f";
 	dir = 1
 	},
+/obj/structure/timed_blocker,
 /turf/open/floor/rogue/grass,
 /area/rogue)
 "fwu" = (
@@ -5124,7 +5129,6 @@
 	dir = 10;
 	icon_state = "cobbleedge-e"
 	},
-/obj/structure/roguemachine/scomm,
 /turf/open/floor/rogue/blocks/stonered/tiny,
 /area/rogue)
 "fPe" = (
@@ -6737,7 +6741,6 @@
 	dir = 1;
 	icon_state = "borderfall"
 	},
-/obj/structure/timed_blocker,
 /turf/open/floor/rogue/grassyel,
 /area/rogue)
 "hPJ" = (
@@ -7632,6 +7635,14 @@
 "iQz" = (
 /obj/structure/chair/stool/rogue,
 /turf/open/floor/rogue/blocks/stonered/tiny,
+/area/rogue)
+"iQL" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 8
+	},
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/grass,
 /area/rogue)
 "iQP" = (
 /obj/structure/bars/cemetery,
@@ -8787,6 +8798,7 @@
 "klU" = (
 /obj/structure/fluff/railing/corner,
 /obj/structure/flora/roguegrass,
+/obj/structure/timed_blocker,
 /turf/open/floor/rogue/grass,
 /area/rogue)
 "kmf" = (
@@ -9117,6 +9129,10 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue)
+"kGh" = (
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/grassred,
+/area/rogue)
 "kGv" = (
 /obj/machinery/light/rogue/torchholder{
 	pixel_y = 32
@@ -9336,6 +9352,13 @@
 "kTk" = (
 /obj/structure/fluff/railing/border/north,
 /turf/open/floor/rogue/cobblerock,
+/area/rogue)
+"kTX" = (
+/obj/effect/decal/cobbleedge{
+	dir = 9
+	},
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/dirt/road,
 /area/rogue)
 "kUo" = (
 /obj/structure/fluff/walldeco/church/line{
@@ -10590,6 +10613,11 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue)
+"mjb" = (
+/obj/structure/fluff/railing/border/west,
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/grass,
+/area/rogue)
 "mjn" = (
 /obj/structure/closet/crate/roguecloset/dark{
 	pixel_y = 12
@@ -10814,8 +10842,9 @@
 /turf/open/floor/rogue/concrete,
 /area/rogue)
 "mrS" = (
-/obj/structure/roguemachine/scomm,
-/turf/open/floor/rogue/ruinedwood/herringbone,
+/obj/structure/flora/roguegrass,
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/grass,
 /area/rogue)
 "mrW" = (
 /obj/structure/mineral_door/wood{
@@ -11089,7 +11118,7 @@
 /area/rogue)
 "mGL" = (
 /obj/structure/timed_blocker,
-/turf/open/floor/rogue/cobble/mossy,
+/turf/open/floor/rogue/cobblerock,
 /area/rogue)
 "mHk" = (
 /obj/effect/decal/edge{
@@ -11196,8 +11225,10 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
 "mMy" = (
-/obj/structure/timed_blocker,
-/turf/open/floor/rogue/cobble,
+/obj/structure/chair/stool/rogue,
+/obj/effect/landmark/start/risconscript,
+/obj/effect/landmark/start/risconscriptlate,
+/turf/open/floor/rogue/herringbone,
 /area/rogue)
 "mNm" = (
 /obj/effect/decal/mossy{
@@ -11836,6 +11867,14 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
+"nBa" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f";
+	dir = 1
+	},
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/cobble/mossy,
+/area/rogue)
 "nBn" = (
 /obj/effect/decal/cobbleedge{
 	dir = 6;
@@ -12128,6 +12167,7 @@
 	color = "#3f3f3f";
 	dir = 8
 	},
+/obj/structure/timed_blocker,
 /turf/open/floor/rogue/grass,
 /area/rogue)
 "nRu" = (
@@ -12177,6 +12217,13 @@
 	pixel_y = 44
 	},
 /turf/open/floor/rogue/ruinedwood/herringbone,
+/area/rogue)
+"nTj" = (
+/obj/effect/decal/edge{
+	color = "#3f3f3f"
+	},
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/cobble,
 /area/rogue)
 "nTH" = (
 /obj/structure/rack/rogue/shelf/big{
@@ -13083,6 +13130,11 @@
 	dir = 4
 	},
 /turf/open/floor/rogue/grass,
+/area/rogue)
+"oUE" = (
+/obj/effect/landmark/start/perconscript,
+/obj/effect/landmark/start/perconscriptlate,
+/turf/open/floor/rogue/cobblerock,
 /area/rogue)
 "oUK" = (
 /obj/effect/decal/mossy,
@@ -14176,6 +14228,7 @@
 	color = "#3f3f3f";
 	dir = 8
 	},
+/obj/structure/timed_blocker,
 /turf/open/floor/rogue/grassyel,
 /area/rogue)
 "qay" = (
@@ -17456,6 +17509,7 @@
 	color = "#3f3f3f";
 	dir = 1
 	},
+/obj/structure/timed_blocker,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
 "tVV" = (
@@ -17850,6 +17904,7 @@
 	color = "#3f3f3f";
 	dir = 8
 	},
+/obj/structure/timed_blocker,
 /turf/open/floor/rogue/grass,
 /area/rogue)
 "uoO" = (
@@ -20194,11 +20249,6 @@
 	pixel_x = 16;
 	pixel_y = -8
 	},
-/obj/structure/roguemachine/scomm{
-	pixel_x = -32;
-	pixel_y = 0;
-	scom_tag = "North House - No.1"
-	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue)
 "wWW" = (
@@ -21147,13 +21197,14 @@
 /turf/open/floor/rogue/hexstone,
 /area/rogue)
 "yal" = (
-/obj/structure/bed/rogue,
-/obj/structure/bed/rogue{
-	pixel_y = 13
+/obj/effect/decal/mossy{
+	dir = 4
 	},
-/obj/effect/landmark/start/armsman,
-/obj/effect/landmark/start/armsmanlate,
-/turf/open/floor/carpet/royalblack,
+/obj/effect/decal/mossy{
+	dir = 1
+	},
+/obj/structure/timed_blocker,
+/turf/open/floor/rogue/dirt,
 /area/rogue)
 "ybs" = (
 /obj/structure/table/wood/perserdunsmall/woodtablefine,
@@ -26188,7 +26239,7 @@ qPy
 qPy
 sxI
 qPy
-mCw
+mMy
 puT
 ajL
 lDP
@@ -28464,12 +28515,12 @@ moE
 moE
 moE
 moE
-gOF
-gxg
-gOF
-ujU
-gOF
-yal
+moE
+moE
+moE
+moE
+moE
+moE
 moE
 moE
 moE
@@ -77695,7 +77746,7 @@ pow
 uFF
 eDo
 eAU
-mrS
+wSU
 vwX
 wSU
 wSU
@@ -86327,23 +86378,23 @@ doH
 doH
 doH
 fwq
-sHR
-sHR
-sHR
+mjb
+mjb
+mjb
 klU
-iev
-oTq
-vpO
-sgf
-fgx
-doH
-doH
-doH
-doH
-doH
+kGh
+yal
+mrS
+kTX
+nTj
+mGL
+mGL
+mGL
+mGL
+mGL
 nRq
 uoy
-tXG
+iQL
 pZi
 fJX
 fJX
@@ -86571,7 +86622,7 @@ doH
 aRV
 vpO
 uFF
-uFF
+aLM
 uFF
 vpO
 vpo
@@ -86780,7 +86831,7 @@ sji
 doH
 doH
 doH
-iHH
+nBa
 kvG
 wNd
 npW
@@ -86798,7 +86849,7 @@ doH
 aRV
 vpO
 uFF
-vpO
+mrS
 nER
 nER
 prD
@@ -87691,20 +87742,20 @@ prD
 prD
 prD
 hPy
-mGL
-mGL
-mMy
-mMy
-mMy
-mMy
-mMy
-mMy
-mMy
-mMy
-mMy
-mMy
-mMy
-mMy
+fdb
+fdb
+wad
+wad
+wad
+wad
+wad
+wad
+wad
+wad
+wad
+wad
+wad
+wad
 prD
 prD
 prD
@@ -108355,7 +108406,7 @@ rPN
 fdb
 lgy
 doH
-doH
+aYJ
 doH
 doH
 doH
@@ -108582,9 +108633,9 @@ wad
 fdb
 lgy
 doH
+aYJ
 doH
-doH
-doH
+oUE
 doH
 doH
 dDD
@@ -108809,7 +108860,7 @@ fdb
 wad
 rTs
 doH
-doH
+aYJ
 doH
 doH
 doH
@@ -150773,7 +150824,7 @@ lsr
 lsr
 jAC
 hol
-aYJ
+rUA
 rUA
 nOm
 lsr

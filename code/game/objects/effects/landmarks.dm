@@ -852,6 +852,26 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	jobspawn_override = list("Huntsman")
 	delete_after_roundstart = FALSE
 
+/obj/effect/landmark/start/perconscript
+	name = "Perserdunian Conscript"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/perconscriptlate
+	name = "Perserdunian Conscript"
+	icon_state = "arrow"
+	jobspawn_override = list("Perserdunian Conscript")
+	delete_after_roundstart = FALSE
+
+/obj/effect/landmark/start/risconscript
+	name = "Risvonian Conscript"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/risconscriptlate
+	name = "Risvonian Conscript"
+	icon_state = "arrow"
+	jobspawn_override = list("Risvonian Conscript")
+	delete_after_roundstart = FALSE
+
 //Antagonist spawns
 
 /obj/effect/landmark/start/wizard
