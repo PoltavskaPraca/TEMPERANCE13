@@ -1,4 +1,5 @@
 //ripped from forcewall.dm, modified to have a stronger timer & more health
+//primarily used for vos arderla, ill be changing it 
 /obj/structure/timed_blocker
 	desc = "A wall of thick, unyielding blood."
 	name = "bloodied wall"

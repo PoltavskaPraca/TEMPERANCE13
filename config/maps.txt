@@ -35,4 +35,9 @@ map twoforts
 endmap
 
 map jrsbar
+	votable
+endmap
+
+map vosarderla
+	votable
 endmap

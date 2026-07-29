@@ -224,6 +224,7 @@
 #define PARTISAN (1<<11)
 #define ENVOY (1<<12)
 #define RADIOTROOPER (1<<13)
+#define PERSERDUN_CONSCRIPT (1<<14) //tester role
 
 #define RISVON	(1<<13)
 
@@ -240,6 +241,7 @@
 #define CAMPFOLLOWER (1<<10)
 #define CONSULO (1<<11)
 #define FLAMSOLDATO (1<<12)
+#define RISVON_CONSCRIPT (1<<13) //tester role
 
 #define KINGSROW (1<<14)
 
@@ -300,6 +302,7 @@
 #define JDO_PARTISAN 1.91
 #define JDO_ENVOY 1.92
 #define JDO_RADIOTROOPER 1.93
+#define JDO_PERSERDUN_CONSCRIPT 1.94
 
 // RISVON
 #define JDO_COMMANDANT 2.0
@@ -315,6 +318,7 @@
 #define JDO_CAMPFOLLOWER 2.10
 #define JDO_CONSULO 2.11
 #define JDO_FLAMSOLDATO 2.12
+#define JDO_RISVONCONSCRIPT 2.13
 
 // KINGSROW
 #define JDO_HIERARCH 3
@@ -350,7 +354,8 @@
 	/datum/job/roguetown/armsman,\
 	/datum/job/roguetown/chirurgeon,\
 	/datum/job/roguetown/partisan,\
-	/datum/job/roguetown/envoy
+	/datum/job/roguetown/envoy,\
+	/datum/job/roguetown/perserconscript
 
 #define RISVON_ROLES \
 	/datum/job/roguetown/commandant,\
@@ -364,7 +369,8 @@
 	/datum/job/roguetown/tuoro,\
 	/datum/job/roguetown/pafanto,\
 	/datum/job/roguetown/municioteknikosto,\
-	/datum/job/roguetown/kaspafisto
+	/datum/job/roguetown/kaspafisto,\
+	/datum/job/roguetown/risvonconscript
 
 #define KINGSROW_ROLES \
 	/datum/job/roguetown/hierarch,\

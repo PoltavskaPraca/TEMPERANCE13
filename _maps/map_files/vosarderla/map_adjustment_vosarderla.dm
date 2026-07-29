@@ -4,23 +4,9 @@
 	These 'map_adjustment.dm' files shouldn't be included in 'dme'
 */
 
-/datum/map_adjustment/jrsbar
-	map_file_name = "jrsbar.dmm"
-	realm_name = "Juniors Bar"
-	slot_adjust = list(
-		/datum/job/roguetown/huntmaster = 1,
-		/datum/job/roguetown/hedgeborn = 1,
-		/datum/job/roguetown/huntsteward = 2,
-		/datum/job/roguetown/mountebank = 3,
-		/datum/job/roguetown/huntsman = 10,
-		/datum/job/roguetown/deadite = 100
-	)
-	title_adjust = list(
-		/datum/job/roguetown/barkeep = list(display_title = "Tavern Keeper")
-	)
-	tutorial_adjust = list(
-		/datum/job/roguetown/barkeep = "A band of hunters strolled in at dusk, and now they've brought hoards of undead with them! Fuck!"
-	)
+/datum/map_adjustment/vosarderla
+	map_file_name = "vosarderla.dmm"
+	realm_name = "Vos Arderla"
 	blacklist = list(
 		/datum/job/roguetown/adventurer,
 		/datum/job/roguetown/pilgrim,
@@ -57,6 +43,10 @@
 		/datum/job/roguetown/soldato,
 		/datum/job/roguetown/tuoro,
 		/datum/job/roguetown/veterano,
-		/datum/job/roguetown/risvonconscript,
-		/datum/job/roguetown/perserconscript
+		/datum/job/roguetown/huntmaster,
+		/datum/job/roguetown/hedgeborn,
+		/datum/job/roguetown/huntsteward,
+		/datum/job/roguetown/mountebank,
+		/datum/job/roguetown/huntsman,
+		/datum/job/roguetown/deadite,
 	)
