@@ -14877,6 +14877,9 @@
 	},
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors/shelter/town)
+"ofn" = (
+/turf/open/floor/rogue/warquad,
+/area/rogue/outdoors/risvon)
 "ofY" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -19865,6 +19868,9 @@
 	},
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
+"sHu" = (
+/turf/open/floor/rogue/warquad,
+/area/rogue/outdoors)
 "sHP" = (
 /turf/closed/wall/mineral/rogue/tent{
 	dir = 1
@@ -22994,6 +23000,9 @@
 /obj/structure/rack/rogue/shelf/biggest,
 /turf/closed,
 /area/rogue/indoors/shelter/town)
+"vtV" = (
+/turf/open/floor/rogue/warquad,
+/area/rogue/outdoors/perserdun)
 "vun" = (
 /mob/living/simple_animal/hostile/rogue/robot/gunner/boss,
 /turf/open/floor/rogue/warmetal,
@@ -348849,10 +348858,10 @@ upZ
 upZ
 oNa
 aTJ
-upZ
-upZ
-upZ
-upZ
+ofn
+ofn
+ofn
+ofn
 aTJ
 oNa
 upZ
@@ -349151,10 +349160,10 @@ upZ
 upZ
 oNa
 aTJ
-upZ
-upZ
-upZ
-upZ
+ofn
+ofn
+ofn
+ofn
 aTJ
 oNa
 upZ
@@ -349453,10 +349462,10 @@ upZ
 upZ
 oNa
 aTJ
-upZ
-upZ
-upZ
-upZ
+ofn
+ofn
+ofn
+ofn
 aTJ
 oNa
 upZ
@@ -349755,10 +349764,10 @@ upZ
 upZ
 oNa
 aTJ
-upZ
-upZ
-upZ
-upZ
+ofn
+ofn
+ofn
+ofn
 aTJ
 oNa
 upZ
@@ -415977,10 +415986,10 @@ myK
 myK
 kBW
 sQI
-myK
-myK
-myK
-myK
+sHu
+sHu
+sHu
+sHu
 sQI
 kBW
 myK
@@ -416279,10 +416288,10 @@ myK
 myK
 kBW
 sQI
-myK
-myK
-myK
-myK
+sHu
+sHu
+sHu
+sHu
 sQI
 kBW
 myK
@@ -416581,10 +416590,10 @@ myK
 myK
 kBW
 sQI
-myK
-myK
-myK
-myK
+sHu
+sHu
+sHu
+sHu
 sQI
 kBW
 myK
@@ -416883,10 +416892,10 @@ myK
 myK
 kBW
 sQI
-myK
-myK
-myK
-myK
+sHu
+sHu
+sHu
+sHu
 sQI
 kBW
 myK
@@ -460123,10 +460132,10 @@ bvK
 bvK
 kuS
 qoL
-bvK
-bvK
-bvK
-bvK
+vtV
+vtV
+vtV
+vtV
 qoL
 kuS
 bvK
@@ -460425,10 +460434,10 @@ bvK
 bvK
 kuS
 qoL
-bvK
-bvK
-bvK
-bvK
+vtV
+vtV
+vtV
+vtV
 qoL
 kuS
 bvK
@@ -460727,10 +460736,10 @@ bvK
 bvK
 kuS
 qoL
-bvK
-bvK
-bvK
-bvK
+vtV
+vtV
+vtV
+vtV
 qoL
 kuS
 bvK
@@ -461029,10 +461038,10 @@ bvK
 bvK
 kuS
 qoL
-bvK
-bvK
-bvK
-bvK
+vtV
+vtV
+vtV
+vtV
 qoL
 kuS
 bvK
