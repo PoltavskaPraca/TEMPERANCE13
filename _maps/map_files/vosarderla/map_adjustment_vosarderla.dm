@@ -9,7 +9,9 @@
 	realm_name = "Vos Arderla"
 	slot_adjust = list(
 		/datum/job/roguetown/armsman = 20,
-		/datum/job/roguetown/soldato = 20
+		/datum/job/roguetown/soldato = 20,
+		/datum/job/roguetown/commandant = 1,
+		/datum/job/roguetown/grandmaster = 1
 	)
 	blacklist = list(
 		/datum/job/roguetown/adventurer,
@@ -28,14 +30,12 @@
 		/datum/job/roguetown/chirurgeon,
 		/datum/job/roguetown/envoy,
 		/datum/job/roguetown/grandknight,
-		/datum/job/roguetown/grandmaster,
 		/datum/job/roguetown/knightcommander,
 		/datum/job/roguetown/partisan,
 		/datum/job/roguetown/rook,
 		/datum/job/roguetown/voltigeur,
 		/datum/job/roguetown/warpriest,
 		/datum/job/roguetown/campfollower,
-		/datum/job/roguetown/commandant,
 		/datum/job/roguetown/consulo,
 		/datum/job/roguetown/curacisto,
 		/datum/job/roguetown/kaspafisto,
