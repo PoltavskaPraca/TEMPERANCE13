@@ -363,7 +363,7 @@
 /obj/item/clothing/mask/rogue/gasmask
 	body_parts_covered = NECK|MOUTH|FACE|EYES
 	slot_flags = ITEM_SLOT_MASK
-	flags_inv = HIDEFACE|HIDESNOUT|HIDEEARS|HIDEHAIR|HIDEFACIALHAIR
+	flags_inv = HIDESNOUT|HIDEEARS|HIDEHAIR|HIDEFACIALHAIR
 	sewrepair = TRUE
 	block2add = FOV_BEHIND //should make vision 180 when worn
 	equip_sound = 'sound/items/gasmask/gasmask_on.ogg'
@@ -403,7 +403,7 @@
 	name = "old gas mask"
 	desc = "A locally-produced gas mask. Comes with a tube, and box."
 	icon_state = "EB_gasmask"
-	flags_inv = HIDEFACE|HIDESNOUT|HIDEFACIALHAIR
+	flags_inv = HIDESNOUT|HIDEFACIALHAIR
 
 /obj/item/clothing/mask/rogue/gasmask/perserdunmask
 	name = "tubed gas mask"
@@ -414,13 +414,13 @@
 	name = "strapped gas mask"
 	desc = "A variant of the standard Perserdunian gas mask, still pretty shit."
 	icon_state = "strapmask"
-	flags_inv = HIDEFACE|HIDESNOUT|HIDEFACIALHAIR
+	flags_inv = HIDESNOUT|HIDEFACIALHAIR
 
 /obj/item/clothing/mask/rogue/gasmask/perserdunmask/cloth
 	name = "cloth half mask"
 	desc = "A cloth mask with a small rebreather behind it, It'll keep you safe enough."
 	icon_state = "halfmask"
-	flags_inv = HIDEFACE|HIDESNOUT|HIDEFACIALHAIR
+	flags_inv = HIDESNOUT|HIDEFACIALHAIR
 
 /obj/item/clothing/mask/rogue/gasmask/sgmask
 	name = "safety mask"
