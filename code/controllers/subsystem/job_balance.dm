@@ -50,8 +50,10 @@
 	else if(perse < risv)
 		goliath = RISVON
 
-	var/balance_ratio = 1 - (diff / total)
-	if(diff >= POP_DIFF_MAX || balance_ratio < (DIFF_THRESHOLD / 100))
+	var/big = max(perse, risv)
+	var/small = min(perse, risv)
+	var/pop_ratio = small / big
+	if(diff >= POP_DIFF_MAX || pop_ratio <= (DIFF_THRESHOLD / 100))
 		lock_faction(goliath)
 		JobDebug("[goliath] slots have been balance-locked.")
 		return
