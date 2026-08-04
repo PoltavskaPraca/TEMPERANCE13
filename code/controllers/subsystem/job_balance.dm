@@ -57,5 +57,17 @@
 		lock_faction(goliath)
 		JobDebug("[goliath] slots have been balance-locked.")
 		return
-	
+
 	clear_faction_lock()
+
+/client/proc/debug_faction_pop()
+	set category = "Debug"
+	set name = "Show Faction Population"
+	if(!check_rights(R_DEBUG))
+		return
+	var/locked_text = "None"
+	if(SSjob.locked_faction == PERSERDUN)
+		locked_text = "Perserdun"
+	else if(SSjob.locked_faction == RISVON)
+		locked_text = "Risvon"
+	to_chat(usr, span_notice("Perserdun: [SSjob.living_pop["Perserdun"]] | Risvon: [SSjob.living_pop["Risvon"]] | Locked: [locked_text]"))
