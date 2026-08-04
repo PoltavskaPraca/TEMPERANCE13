@@ -105,6 +105,8 @@
 	..()
 
 /obj/item/gun/ballistic/heavy_mg/afterattack(atom/A, mob/user)
+	if(A == src)
+		pump(user)
 	if(check_direction(user, A))
 		update_pixels(user)
 		return ..() //fire gun
@@ -154,6 +156,10 @@
 /obj/item/gun/ballistic/heavy_mg/unbuckle_mob(mob/user, force = FALSE)
 	..()
 	stopped_using(user)
+
+/obj/item/gun/ballistic/heavy_mg/relaymove(mob/user, direction)
+	rotate_to(user, get_step(src.loc, direction))
+	update_layer()
 
 /obj/item/gun/ballistic/heavy_mg/attack_right(mob/user)
 	if(user.get_active_held_item() == null)
@@ -214,6 +220,7 @@
 	src.setDir(direction)
 	user.setDir(direction)
 	update_pixels(user)
+	user.update_cone()
 
 	return 0
 

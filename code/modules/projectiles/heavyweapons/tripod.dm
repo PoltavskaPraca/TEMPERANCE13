@@ -23,8 +23,10 @@
 	if(isturf(A) && ismob(user))
 		var/turf/T = A
 		var/mob/M = user
-		if(in_range(T, user) && do_after(user, 20, src))
-			playsound(src, 'sound/items/hw_tripod.ogg', 50, 1)
+		if(!in_range(T, user))
+			return
+		playsound(src, 'sound/items/hw_tripod.ogg', 50, 1)
+		if(do_after(user, 20, src))
 			attach_to_turf(T, M, 1)
 
 /obj/item/mg_tripod/MouseDrop(over_object, src_location, over_location)
