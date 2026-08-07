@@ -19,6 +19,7 @@
 	layer = ABOVE_OBJ_LAYER + 0.11
 	anchored = 1
 	density = 1
+	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 	can_buckle = 1
 	buckle_lying = 0
 	w_class = WEIGHT_CLASS_GIGANTIC
@@ -35,6 +36,12 @@
 	var/mob/used_by_mob = null
 	var/obj/item/mg_disassembled/disassembled = null
 	var/obj/item/mg_tripod/tripod = null
+
+/obj/item/gun/ballistic/heavy_mg/bullet_act(obj/projectile/P)
+	if(buckled_mobs) //Operator fucking EATS IT.
+		buckled_mobs[1].bullet_act(P)
+	else
+		. = ..()
 
 // Deployed MGs bypass the charge-based accuracy system entirely; they're stationary
 // emplacements and shouldn't be punished for not "aiming" the way a handheld gun is.
@@ -105,6 +112,9 @@
 	..()
 
 /obj/item/gun/ballistic/heavy_mg/afterattack(atom/A, mob/user)
+	if(user.incapacitated()) //Dead people shoot no guns.
+		unbuckle_mob(user)
+		return
 	if(A == src)
 		pump(user)
 	if(check_direction(user, A))

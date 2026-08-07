@@ -9,6 +9,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	anchored = 0
 	density = 0
+	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 	var/id_g = "bmg"
 	var/need_type = /obj/item/gun/ballistic/heavy_mg
 
