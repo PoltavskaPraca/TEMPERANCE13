@@ -283,21 +283,21 @@
 	if(!istype(C))
 		return ..()
 	if(C.reagents.has_reagent(/datum/reagent/medicine/healthpot, 10) && !medicine_amount)
-		to_chat(user, span_notice("You start soaking the [src] in lyfeblood..."))
+		to_chat(user, span_notice("You start soaking the [src] in a medical compound..."))
 		if(do_after(user, 3 SECONDS, target = src))
 			C.reagents.remove_reagent(/datum/reagent/medicine/healthpot, 10)
 			medicine_quality = 1
 			medicine_amount += 10
-			desc += " It has been soaked in lyfeblood."
+			desc += " It has been soaked in a medical compound."
 			detail_color = "#ff0000"
 			update_icon()
 	if(C.reagents.has_reagent(/datum/reagent/medicine/stronghealth, 10) && !medicine_amount)
-		to_chat(user, span_notice("You start soaking the [src] in strong lyfeblood..."))
+		to_chat(user, span_notice("You start soaking the [src] in a strong medical compound..."))
 		if(do_after(user, 3 SECONDS, target = src))
 			C.reagents.remove_reagent(/datum/reagent/medicine/stronghealth, 10)
 			medicine_quality = 2
 			medicine_amount += 10
-			desc += " It has been soaked in strong lyfeblood."
+			desc += " It has been soaked in a strong medical compound."
 			detail_color = "#820000"
 			update_icon()
 	if(C.reagents.has_reagent(/datum/reagent/consumable/ethanol/aqua_vitae, 10) && !medicine_amount)
