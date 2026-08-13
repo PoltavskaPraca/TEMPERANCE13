@@ -183,7 +183,7 @@
 	if(mind)
 		amt -= amt * (conbonus * CONSTITUTION_BLEEDRATE_MOD)
 		if(HAS_TRAIT(src, TRAIT_CRITICAL_RESISTANCE))
-			amt = amt / 2
+			amt = amt * CRIT_RESISTANCE_EFFECTIVE_BLEEDRATE
 		if(HAS_TRAIT(src, TRAIT_CRITICAL_WEAKNESS))
 			amt = amt * 2
 	blood_volume = max(blood_volume - amt, 0)
