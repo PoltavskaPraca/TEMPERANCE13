@@ -10,10 +10,10 @@
 	var/attacked = FALSE
 
 /obj/structure/round_ender/attackby(obj/item/I, mob/living/user, params)
-	if (!istype(I, /obj/item/rogueweapon))
+	if(!istype(I, /obj/item/rogueweapon))
 		return	
 
-	if (I.d_type != BCLASS_BLUNT)
+	if(I.d_type != BCLASS_BLUNT)
 		return
 
 	..()
@@ -33,3 +33,4 @@
 		to_chat(M, span_info("The Round ends in 3 minutes."))
 	sleep(3 MINUTES)
 	SSticker.force_ending = 1
+	..()
