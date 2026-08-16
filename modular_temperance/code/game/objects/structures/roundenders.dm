@@ -23,7 +23,7 @@
 	if(!attacked)
 		for(var/mob/M in GLOB.player_list)
 			to_chat(M, span_userdanger("SOMEONE IS ATTACKING THE REBELLION'S ANCHOR!!!"))
-			playsound_local(M, 'sound/misc/alarm_outdoors.ogg', 120, TRUE)
+			M.playsound_local(M, 'sound/misc/alarm_outdoors.ogg', 120, TRUE)
 		attacked = TRUE
 	return ..()
 
