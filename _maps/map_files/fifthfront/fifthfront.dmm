@@ -122,6 +122,10 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
+"bO" = (
+/obj/effect/decal/cleanable/coom,
+/turf/open/floor/rogue/dirt,
+/area/rogue)
 "ce" = (
 /obj/effect/decal/mossy{
 	dir = 1
@@ -462,6 +466,10 @@
 	dir = 1
 	},
 /turf/open/floor/rogue/grass,
+/area/rogue)
+"fS" = (
+/obj/item/storage/backpack/rogue/satchel/chestrig,
+/turf/open/floor/rogue/dirt,
 /area/rogue)
 "fT" = (
 /obj/machinery/light/rogue/firebowl/standing{
@@ -3262,6 +3270,10 @@
 	},
 /turf/open/floor/rogue/risvon,
 /area/rogue)
+"Kt" = (
+/obj/structure/bed/rogue/bedroll,
+/turf/open/floor/rogue/dirt,
+/area/rogue)
 "Kw" = (
 /turf/closed/wall/mineral/rogue/risvon/outercorner/dir8,
 /area/rogue)
@@ -3780,6 +3792,10 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue)
+"Si" = (
+/obj/structure/barricade/brustwehr,
+/turf/open/floor/rogue/dirt,
+/area/rogue)
 "Sk" = (
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
@@ -3803,6 +3819,9 @@
 	pixel_x = -25
 	},
 /turf/open/floor/rogue/cobble,
+/area/rogue)
+"Sr" = (
+/turf/open/transparent/openspace,
 /area/rogue)
 "Sv" = (
 /obj/structure/chair/wood/rogue/chair4,
@@ -4285,6 +4304,9 @@
 	},
 /turf/open/floor/rogue/naturalstone,
 /area/rogue)
+"XS" = (
+/turf/open/water/swamp,
+/area/rogue)
 "XY" = (
 /obj/machinery/light/rogue/firebowl/church,
 /turf/open/floor/rogue/risvon,
@@ -4397,6 +4419,10 @@
 /obj/item/reagent_containers/food/snacks/canned/loaf,
 /obj/item/reagent_containers/food/snacks/canned/loaf,
 /turf/open/floor/rogue/risvon,
+/area/rogue)
+"Za" = (
+/obj/item/reagent_containers/food/snacks/canned/beans,
+/turf/open/floor/rogue/dirt,
 /area/rogue)
 "Zd" = (
 /obj/machinery/light/rogue/firebowl/standing{
@@ -59453,10 +59479,10 @@ to
 to
 to
 to
-to
-to
-to
-to
+oF
+oF
+oF
+oF
 to
 to
 to
@@ -59553,12 +59579,12 @@ to
 to
 to
 to
-to
-to
-to
-to
-to
-to
+oF
+oF
+oF
+oF
+XS
+oF
 to
 to
 to
@@ -59655,12 +59681,12 @@ to
 to
 to
 to
-to
-to
-to
-to
-to
-to
+oF
+Tl
+Za
+oF
+XS
+oF
 to
 to
 to
@@ -59757,12 +59783,12 @@ to
 to
 to
 to
-to
-to
-to
-to
-to
-to
+oF
+Kt
+YW
+YW
+YW
+oF
 to
 to
 to
@@ -59859,12 +59885,12 @@ to
 to
 to
 to
-to
-to
-to
-to
-to
-to
+oF
+oF
+fS
+Za
+bO
+oF
 to
 to
 to
@@ -59962,11 +59988,11 @@ to
 to
 to
 to
-to
-to
-to
-to
-to
+oF
+oF
+oF
+oF
+oF
 to
 to
 to
@@ -105250,10 +105276,10 @@ BO
 YW
 YW
 YW
+PW
+PW
 YW
-YW
-YW
-YW
+YB
 YW
 YW
 YW
@@ -105351,12 +105377,12 @@ pv
 YW
 YW
 YW
-YW
-YW
+PW
+PW
 YW
 Ub
-YW
-YW
+Si
+Si
 YW
 YW
 to
@@ -105453,13 +105479,13 @@ YW
 YW
 YW
 YW
-YB
+yb
 YW
 YW
+Si
 YW
-YW
-YW
-YW
+Sr
+Si
 YW
 to
 to
@@ -105558,10 +105584,10 @@ YW
 Oy
 YW
 YW
-YW
-YW
-YW
-YW
+Si
+PW
+Sr
+Si
 YW
 to
 to
@@ -105659,10 +105685,10 @@ YW
 YW
 YW
 YW
+DX
 YW
-YW
-YW
-YW
+Si
+Si
 YW
 YW
 to
@@ -105763,7 +105789,7 @@ YW
 YW
 YW
 YW
-ta
+DX
 YW
 YW
 YW
@@ -105864,9 +105890,9 @@ YW
 YW
 YW
 YW
-YW
-YW
-YW
+ta
+DX
+DX
 YW
 YW
 to
