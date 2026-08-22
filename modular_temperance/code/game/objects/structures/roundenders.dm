@@ -31,6 +31,8 @@
 	for(var/mob/M in GLOB.player_list)
 		to_chat(M, span_userdanger("The Rebellion's ANCHOR has been crushed - the Protectorate triumphs once again!"))
 		to_chat(M, span_info("The Round ends in 3 minutes."))
-	sleep(3 MINUTES)
-	SSticker.force_ending = 1
+	addtimer(CALLBACK(src, PROC_REF(endround)), 3 MINUTES)
 	..()
+
+/obj/structure/round_ender/endround()
+	SSticker.force_ending = 1
