@@ -394,7 +394,9 @@
 /turf/closed/wall/mineral/rogue/decostone/cand,
 /area/rogue/indoors)
 "lI" = (
-/obj/structure/machine/bellow,
+/obj/structure/machine/bellow{
+	color = #808080
+	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors)
 "lN" = (

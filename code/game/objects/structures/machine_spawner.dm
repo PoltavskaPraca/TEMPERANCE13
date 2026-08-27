@@ -45,7 +45,6 @@ GLOBAL_LIST_EMPTY(machine_bellows)
 		blockers += G
 
 /obj/structure/machine/spawner/proc/spawnitem()
-	playsound(src, 'sound/misc/loops/machinedone.ogg', 100)
 	var/obj/new_type
 	if(prob(90))
 		new_type = pick(
@@ -55,7 +54,10 @@ GLOBAL_LIST_EMPTY(machine_bellows)
 			/obj/effect/spawner/lootdrop/machine/pistol,
 			/obj/effect/spawner/lootdrop/machine/explosives,
 			/obj/effect/spawner/lootdrop/medicines,
-			/obj/effect/spawner/lootdrop/machine/levershotgun)
+			/obj/effect/spawner/lootdrop/machine/revivers,
+			/obj/effect/spawner/lootdrop/machine/levershotgun,
+			/obj/effect/spawner/lootdrop/machine/fortification,
+			/obj/effect/spawner/lootdrop/machine/mines)
 	else 
 		new_type = pick(
 			/obj/effect/spawner/lootdrop/machine/reaper,
@@ -96,6 +98,8 @@ GLOBAL_LIST_EMPTY(machine_bellows)
 	if(timer >= bakelength) //easily adjustable
 		active = FALSE
 		update_effect()
+		playsound(src, 'sound/misc/loops/machinedone.ogg', 100)
+		spawnitem()
 		spawnitem()
 		visible_message("<span class='notice'>The FURNACE goes quiet, its work done.</span>")
 		for(var/obj/structure/machine/bellow/worker in bellows)
@@ -208,6 +212,17 @@ GLOBAL_LIST_EMPTY(machine_bellows)
 		/obj/item/reagent_containers/lux = 2,
 	)
 
+/obj/effect/spawner/lootdrop/machine/fortification
+	loot = list(
+		/obj/item/sandbag = 6,
+		/obj/item/barbedwire = 4,
+	)
+
+/obj/effect/spawner/lootdrop/machine/mines
+	loot = list(
+		/obj/item/landmine = 2,
+		/obj/item/frogmine = 2,
+	)
 
 /obj/structure/machine/bellow
 	name = "BELLOW"
