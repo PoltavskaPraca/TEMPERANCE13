@@ -1,9 +1,9 @@
-GLOBAL_LIST_EMPTY(machine_maintainers)
+GLOBAL_LIST_EMPTY(machine_bellows)
 
 
 /obj/structure/machine/spawner
 	name = "FURNACE"
-	desc = "An orifice of the local WAR machine. I'll need friends holding the nearby MAINTAINERs for it to work."
+	desc = "An orifice of the local WAR machine. I'll need friends holding the nearby BELLOWs for it to work."
 	icon = 'icons/obj/structures/bigmachine.dmi'
 	max_integrity = 999999
 	resistance_flags = INDESTRUCTIBLE
@@ -14,8 +14,8 @@ GLOBAL_LIST_EMPTY(machine_maintainers)
 	var/datum/looping_sound/machineloop/soundloop
 	var/list/turfsy = list()
 	var/list/blockers = list()
-	var/list/maintainers = list()
-	var/maintainer_id //used to sync which furnace connects to which maintainers, mappers should set this
+	var/list/bellows = list()
+	var/bellow_id //used to sync which furnace connects to which bellows, mappers should set this
 	var/malfunction_timer_1
 	var/malfunction_timer_2
 	var/bakelength = 180//how long the furnace takes to finish
@@ -73,29 +73,32 @@ GLOBAL_LIST_EMPTY(machine_maintainers)
 
 /obj/structure/machine/spawner/proc/failed()
 	STOP_PROCESSING(SSprocessing, src)
-	visible_message("<span class='boldwarning'>The FURNACE shuts down unexpectedly. It looks as though a MAINTAINER failed.</span>")
+	visible_message("<span class='boldwarning'>The FURNACE shuts down unexpectedly. It looks as though a BELLOW failed.</span>")
 	active = 0
 	update_effect()
 	timer = 0
-	for(var/obj/structure/machine/maintainer/deadtainer in maintainers)
+	for(var/obj/structure/machine/bellow/deadtainer in bellows)
 		if(deadtainer.status != 0)
 			deadtainer.turnofffailed()
 
 
 /obj/structure/machine/spawner/process()
 	timer++
-	if(timer == 10) //early malfunction guaranteed, so people HAVE to have someone already at a maintainer (or get there very fast)
-		var/obj/structure/machine/maintainer/malfmaintainer = pick(maintainers)
-		malfmaintainer.malfunction()
+	if(timer == 10) //early malfunction guaranteed, so people HAVE to have someone already at a bellow (or get there very fast)
+		var/obj/structure/machine/bellow/malfbellow = pick(bellows)
+		malfbellow.malfunction()
 	if(timer == malfunction_timer_1)
-		var/obj/structure/machine/maintainer/malfmaintainer = pick(maintainers)
-		malfmaintainer.malfunction()
+		var/obj/structure/machine/bellow/malfbellow = pick(bellows)//technically i could write a whole function here for "if this is already breaking, add it to a list and pick another that isn't and make it start breaking"
+		malfbellow.malfunction()//im just not gonna lol
+	if(timer == malfunction_timer_2)
+		var/obj/structure/machine/bellow/malfbellow = pick(bellows)
+		malfbellow.malfunction()
 	if(timer >= bakelength) //easily adjustable
 		active = FALSE
 		update_effect()
 		spawnitem()
 		visible_message("<span class='notice'>The FURNACE goes quiet, its work done.</span>")
-		for(var/obj/structure/machine/maintainer/worker in maintainers)
+		for(var/obj/structure/machine/bellow/worker in bellows)
 			if(worker.status != 0)
 				worker.turnoff()
 		timer = 0
@@ -107,20 +110,21 @@ GLOBAL_LIST_EMPTY(machine_maintainers)
 	if(!active)
 		user.visible_message("<span class='warning'>[user] prepares to start the FURNACE...</span>", "<span class='warning'>I prepare to start the FURNACE...</span>")
 		if(do_after(user, 7 SECONDS, TRUE, src))
-			user.visible_message("<span class='warning'>[user] starts the FURNACE!</span>", "<span class='warning'>I start the FURNACE! Hopefully someone is watching the MAINTAINERs...</span>")
 			active = TRUE
 			update_effect()
-			for(var/obj/structure/machine/maintainer/matcher in GLOB.machine_maintainers)
-				if(matcher.maintainer_id == src.maintainer_id)
+			for(var/obj/structure/machine/bellow/matcher in GLOB.machine_bellows)
+				if(matcher.bellow_id == src.bellow_id)
 					if(matcher.status == 0)
 						matcher.callingfurnace = src
 						matcher.turnon()
-						maintainers.Add(matcher)
-			if(!maintainers)
-				message_admins("[user] tried to start a FURNACE with no MAINTAINERs! Tell a dev. Or a mapper.")
+						bellows.Add(matcher)
+			if(!length(bellows))
+				message_admins("[user] tried to start a FURNACE with no BELLOWs! Tell a dev. Or a mapper.")
+				visible_message("The FURNACE fails to start. Strange. (Tell a dev/mapper, this isn't working right now!)")
 				return
 			malfunction_timer_1 = rand(20, bakelength-31) //needs to be 31 less than the maximum bake length as otherwise baking could finish before a malfunction event does
 			malfunction_timer_2 = rand(20, bakelength-31)
+			user.visible_message("<span class='warning'>[user] starts the FURNACE!</span>", "<span class='warning'>I start the FURNACE! Hopefully someone is watching the BELLOWs...</span>")
 			START_PROCESSING(SSprocessing, src)
 
 /obj/effect/spawner/lootdrop/machine
@@ -205,15 +209,15 @@ GLOBAL_LIST_EMPTY(machine_maintainers)
 	)
 
 
-/obj/structure/machine/maintainer
-	name = "MAINTAINER"
+/obj/structure/machine/bellow
+	name = "BELLOW"
 	desc = "An maintenance mechanism of the local WAR machine. It connects to the nearby FURNACE."
 	icon = 'icons/obj/structures/bigmachine.dmi'
 	max_integrity = 999999
 	resistance_flags = INDESTRUCTIBLE
 	layer = MOB_LAYER + 0.01
 	icon_state = "tesla"
-	var/maintainer_id //used to decide what maintainer is attached to what furnace, designed for each maintainer to be attached to 1 furnace but idk why you couldn't attach it to several
+	var/bellow_id //used to decide what bellow is attached to what furnace, designed for each bellow to be attached to 1 furnace but idk why you couldn't attach it to several
 	var/status = 0 //0 equals nothing on, 1 equals attached furnace on, 2 equals needs attention
 	var/datum/looping_sound/streetlamp1/soundloopon
 	var/datum/looping_sound/streetlamp3/soundloopbreaking
@@ -222,7 +226,7 @@ GLOBAL_LIST_EMPTY(machine_maintainers)
 	var/list/turfsy = list()
 	var/list/blockers = list()
 
-/obj/structure/machine/maintainer/Initialize()
+/obj/structure/machine/bellow/Initialize()
 	soundloopon = new(src, FALSE)
 	soundloopbreaking = new(src, FALSE)
 	. = ..()
@@ -237,49 +241,49 @@ GLOBAL_LIST_EMPTY(machine_maintainers)
 	for(var/turf/blocker_tile in turfsy)
 		var/G = new /obj/mblock(blocker_tile) 
 		blockers += G
-	GLOB.machine_maintainers += src
+	GLOB.machine_bellows += src
 
-/obj/structure/machine/maintainer/proc/turnon()
-	visible_message("<span class='bignotice'>The MAINTAINER whirrs to life!</span>")
+/obj/structure/machine/bellow/proc/turnon()
+	visible_message("<span class='notice'>The BELLOW whirrs to life!</span>")
 	status = 1
 	update_effect()
 
-/obj/structure/machine/maintainer/proc/turnoff()
-	visible_message("<span class='notice'>The MAINTAINER goes quiet, its work done successfully.</span>")
+/obj/structure/machine/bellow/proc/turnoff()
+	visible_message("<span class='notice'>The BELLOW goes quiet, its work done successfully.</span>")
 	status = 0
 	update_effect()
 	timer = 0
 	STOP_PROCESSING(SSprocessing, src)
 
-/obj/structure/machine/maintainer/proc/turnofffailed()
-	visible_message("<span class='warning'>The MAINTAINER goes quiet, as a different MAINTAINER fails to function.</span>")
+/obj/structure/machine/bellow/proc/turnofffailed()
+	visible_message("<span class='warning'>The BELLOW goes quiet, as a different BELLOW fails to function.</span>")
 	status = 0
 	update_effect()
 	timer = 0
 	STOP_PROCESSING(SSprocessing, src)
 
-/obj/structure/machine/maintainer/proc/malfunction()
+/obj/structure/machine/bellow/proc/malfunction()
 	if(status == 2)
 		return FALSE 
-	visible_message("<span class='boldwarning'>The MAINTAINER begins to beep- it needs attention!</span>")
+	visible_message("<span class='boldwarning'>The BELLOW begins to beep- it needs attention!</span>")
 	status = 2
 	update_effect()
 	START_PROCESSING(SSprocessing, src)
-	return TRUE //could be used in the future to have it make another maintainer break if this one is already breaking but im on a deadline here bub
+	return TRUE //could be used in the future to have it make another bellow break if this one is already breaking but im on a deadline here bub
 
-/obj/structure/machine/maintainer/process()
+/obj/structure/machine/bellow/process()
 	timer++
 	if(timer == 15)
-		visible_message("<span class='boldwarning'>The MAINTAINER looks like it's about to break! It needs attention!</span>")
+		visible_message("<span class='boldwarning'>The BELLOW looks like it's about to break! It needs attention!</span>")
 	if(timer >= 30)
-		visible_message("<span class='warning'>The MAINTAINER goes quiet, as it fails to function.</span>")
+		visible_message("<span class='warning'>The BELLOW goes quiet, as it fails to function.</span>")
 		timer = 0
 		status = 0
 		update_effect()
 		callingfurnace.failed()
 		STOP_PROCESSING(SSprocessing, src)
 
-/obj/structure/machine/maintainer/proc/update_effect()
+/obj/structure/machine/bellow/proc/update_effect()
 	if(status == 0)
 		icon_state = "[initial(icon_state)]"
 		soundloopbreaking.stop()
@@ -293,11 +297,11 @@ GLOBAL_LIST_EMPTY(machine_maintainers)
 		soundloopon.stop()
 		soundloopbreaking.start()
 
-/obj/structure/machine/maintainer/attack_hand(mob/user)
+/obj/structure/machine/bellow/attack_hand(mob/user)
 	if(status == 2)
-		user.visible_message("[user] starts to fix the MAINTAINER...", "I grab the lever...")
-		if(do_after(user, 2 SECONDS, TRUE, src))
-			user.visible_message("[user] fixes the MAINTAINER.", "I pull it! It looks fine, now.")
+		user.visible_message("<span class='notice'>[user] starts to fix the BELLOW...", "<span class='notice'>I grab the lever...</span>")
+		if(do_after(user, 1 SECONDS, TRUE, src))
+			user.visible_message("<span class='notice'>[user] fixes the BELLOW.", "<span class='notice'>I pull it! It looks fine, now.</span>")
 			STOP_PROCESSING(SSprocessing, src)
 			timer = 0
 			status = 1

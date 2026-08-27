@@ -394,14 +394,12 @@
 /turf/closed/wall/mineral/rogue/decostone/cand,
 /area/rogue/indoors)
 "lI" = (
-/obj/structure/machine/maintainer{
-	maintainer_id = s
-	},
+/obj/structure/machine/bellow,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors)
 "lN" = (
-/obj/structure/machine/maintainer{
-	maintainer_id = fire
+/obj/structure/machine/bellow{
+	bellow_id = fire
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors)
@@ -854,7 +852,7 @@
 /area/rogue/indoors)
 "DJ" = (
 /obj/structure/machine/spawner{
-	maintainer_id = fire
+	bellow_id = fire
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors)
@@ -2846,10 +2844,10 @@ BJ
 BJ
 BJ
 BJ
+lN
 BJ
 BJ
 lN
-BJ
 BJ
 HA
 WN
@@ -3057,7 +3055,7 @@ ys
 KF
 BJ
 BJ
-BJ
+lI
 BJ
 HA
 XE
@@ -3160,7 +3158,7 @@ BJ
 BJ
 BJ
 BJ
-lN
+BJ
 BJ
 BJ
 HA
@@ -3260,7 +3258,7 @@ HA
 HA
 BJ
 BJ
-lI
+BJ
 BJ
 BJ
 BJ
