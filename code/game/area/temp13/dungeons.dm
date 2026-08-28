@@ -25,11 +25,11 @@
 
 /area/rogue/under/cave/warmachine/bellow2a
 	name = "bellow 2a"
-	first_time_text = "THE LUNGS: BREATH"
+	first_time_text = "THE LUNGS: VOICEBOX"
 
 /area/rogue/under/cave/warmachine/bellow2b
 	name = "bellow 2b"
-	first_time_text = "THE LUNGS: AIR"
+	first_time_text = "THE LUNGS: TRACHEA"
 
 
 
