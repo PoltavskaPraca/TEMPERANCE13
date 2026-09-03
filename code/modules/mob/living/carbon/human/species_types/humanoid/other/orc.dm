@@ -16,8 +16,8 @@
 	liked_food = NONE
 	possible_ages = ALL_AGES_LIST
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_MAGIC | MIRROR_PRIDE | RACE_SWAP | SLIME_EXTRACT
-	limbs_icon_m = 'icons/roguetown/mob/bodies/masc/mt_muscular.dmi'
-	limbs_icon_f = 'icons/roguetown/mob/bodies/fem/ft_muscular.dmi'
+	limbs_icon_m = 'icons/roguetown/mob/bodies/masc/human_muscular.dmi'
+	limbs_icon_f = 'icons/roguetown/mob/bodies/fem/human_muscular.dmi'
 	dam_icon = 'icons/roguetown/mob/bodies/damaged/dam_male.dmi'
 	dam_icon_f = 'icons/roguetown/mob/bodies/damaged/dam_male.dmi'
 	use_m = TRUE
