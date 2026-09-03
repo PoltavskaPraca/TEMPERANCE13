@@ -22,8 +22,8 @@
 	liked_food = NONE
 	inherent_traits = list(TRAIT_NOHUNGER, TRAIT_BLOODLOSS_IMMUNE, TRAIT_NOBREATH, TRAIT_NOSLEEP)
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_MAGIC | MIRROR_PRIDE | RACE_SWAP | SLIME_EXTRACT
-	limbs_icon_m = 'icons/roguetown/mob/bodies/masc/mcom.dmi'
-	limbs_icon_f = 'icons/roguetown/mob/bodies/fem/fcom.dmi'
+	limbs_icon_m = 'icons/roguetown/mob/bodies/masc/doll.dmi'
+	limbs_icon_f = 'icons/roguetown/mob/bodies/fem/doll.dmi'
 	dam_icon = 'icons/roguetown/mob/bodies/damaged/dam_male.dmi'
 	dam_icon_f = 'icons/roguetown/mob/bodies/damaged/dam_female.dmi'
 	soundpack_m = /datum/voicepack/male

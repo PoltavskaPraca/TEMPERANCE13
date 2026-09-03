@@ -32,8 +32,8 @@
 	disliked_food = NONE
 	liked_food = NONE
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_MAGIC | MIRROR_PRIDE | RACE_SWAP | SLIME_EXTRACT
-	limbs_icon_m = 'icons/roguetown/mob/bodies/masc/md.dmi'
-	limbs_icon_f = 'icons/roguetown/mob/bodies/fem/fd.dmi'
+	limbs_icon_m = 'icons/roguetown/mob/bodies/masc/dwarf.dmi'
+	limbs_icon_f = 'icons/roguetown/mob/bodies/fem/dwarf.dmi'
 	dam_icon = 'icons/roguetown/mob/bodies/damaged/dam_male.dmi'
 	dam_icon_f = 'icons/roguetown/mob/bodies/damaged/dam_female.dmi'
 	hairyness = "t3"

@@ -47,7 +47,7 @@
 	possible_ages = ALL_AGES_LIST
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_MAGIC | MIRROR_PRIDE | RACE_SWAP | SLIME_EXTRACT
 	limbs_icon_m = 'icons/roguetown/mob/bodies/masc/mem.dmi'
-	limbs_icon_f = 'icons/roguetown/mob/bodies/fem/fm.dmi'
+	limbs_icon_f = 'icons/roguetown/mob/bodies/fem/human.dmi' // human
 	dam_icon = 'icons/roguetown/mob/bodies/damaged/dam_male.dmi'
 	dam_icon_f = 'icons/roguetown/mob/bodies/damaged/dam_female.dmi'
 	use_f = TRUE
