@@ -79,6 +79,10 @@
 		/datum/body_marking_set/tiger,
 		/datum/body_marking_set/tiger_dark,
 		/datum/body_marking_set/gradient,
+		/datum/body_marking_set/doll,
+		/datum/body_marking_set/construct_light,
+//		/datum/body_marking_set/construct_medium,
+//		/datum/body_marking_set/construct_heavy,
 	)
 	body_markings = list(
 		/datum/body_marking/flushed_cheeks,
